@@ -1,0 +1,122 @@
+/* RESTETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* 1 rem == 10 px */
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Resets para Bootstrap y demas librerias */
+ol,
+ul {
+  padding-left: 0;
+}
+
+dl,
+ol,
+ul {
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header_contact {
+  background-color: #FFFFFF;
+  height: 7vh;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_contact div ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.header_contact div ul li a {
+  text-decoration: none;
+}
+
+.header_list-contacto a,
+.header_list-contacto i {
+  color: #969696;
+}
+
+.list-contacto-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-contacto-item a {
+  margin-left: .7rem;
+  font-size: 1.2rem;
+}
+
+.header_list-redes li a i {
+  color: #F78121;
+}
+
+/* /////////////// */
+.header_principal {
+  background-image: url(../assets/header/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 93vh;
+  width: 100%;
+}
+
+.header_principal {
+  display: flex;
+  justify-content: center;
+}
+
+.header_principal nav {
+  width: 85%;
+  height: 7rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_logo,
+.navbar_pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_logo h2 {
+  color: #FFFFFF;
+  margin-left: .7rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.navbar_pages ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar_pages ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-weight: 400;
+}

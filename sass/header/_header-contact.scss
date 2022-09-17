@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header_contact {
+    background-color: $color-cuatro;
+    height: 7vh;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+
+        li a {
+            text-decoration: none;
+        }
+    }
+}
+
+.header_list-contacto {
+    a,
+    i {
+        color: $color-tres;
+    }
+}
+
+.list-contacto-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        margin-left: .7rem;
+        font-size: 1.2rem;
+    }
+}
+
+.header_list-redes li a i {
+    color: $color-uno;
+}
+
+/* /////////////// */
+.header_principal {
+    background-image: url(../assets/header/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 93vh;
+    width: 100%;
+}
+
+.header_principal {
+    display: flex;
+    justify-content: center;
+
+    nav {
+        width: 85%;
+        height: 7rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.navbar_logo,
+.navbar_pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.navbar_logo {
+    h2 {
+        color: $color-cuatro;
+        margin-left: .7rem;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+
+.navbar_pages {
+    ul {
+        list-style: none;
+        display: flex; 
+        gap: 2rem;
+
+        li a {
+            text-decoration: none;
+            color: $color-cuatro;
+            font-size: 1.6rem;
+            font-weight: 400;
+        }
+    }
+}
