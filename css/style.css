@@ -83,7 +83,9 @@ header {
 
 .header_principal {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .header_principal nav {
@@ -111,6 +113,7 @@ header {
 .navbar_pages ul {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -119,4 +122,57 @@ header {
   color: #FFFFFF;
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+.navbar_pages-cotizar {
+  padding: 1rem;
+  gap: 1rem;
+  width: 12.6rem;
+  height: 3.9rem;
+  background: #F78121;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+.navbar_pages-cotizar a {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.header_principal-titulo {
+  position: absolute;
+  top: 22.2rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.header-titulo {
+  font-size: 9rem;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-descripcion {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  font-style: normal;
+  width: 60rem;
+  margin: 1.7rem 1.8rem;
+  opacity: 0.8;
+  line-height: 160%;
+}
+
+.header-boton a {
+  text-decoration: none;
+  background-color: #F78121;
+  color: #FFFFFF;
+  border-radius: .7rem;
+  padding: 10px 20px;
+  width: 16.4rem;
+  height: 4.4rem;
+  font-weight: 500;
+  font-size: 2rem;
 }
