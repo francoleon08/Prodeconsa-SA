@@ -1,0 +1,82 @@
+#productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;    
+}
+
+.productos_contain {
+    width: 85%;
+    display: flex;
+    gap: 3.1rem;
+}
+
+.productos_descripcion {
+    z-index: 99;
+    background-color: #fff;
+}
+
+.productos_descripcion div {
+    span {
+        color: $color-uno;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        letter-spacing: 0.175em;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4.2rem;
+        line-height: 5.5rem;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 185%;
+        color: #1E1E1E;
+        opacity: 0.8;
+    }
+}
+
+.productos_carousel_container {
+    overflow: hidden;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.productos_descripcion-botones {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: relative !important;
+    top: 4rem;
+    color: #000000;
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 3rem;
+}
+
