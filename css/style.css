@@ -1,5 +1,4 @@
 /* RESTETS */
-/* line 2, ../../A&M/Prodeconsa-SA/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10,26 +9,22 @@
 }
 
 /* Resets para Bootstrap y demas librerias */
-/* line 13, ../../A&M/Prodeconsa-SA/sass/style.scss */
 ol,
 ul {
   padding-left: 0;
 }
 
-/* line 18, ../../A&M/Prodeconsa-SA/sass/style.scss */
 dl,
 ol,
 ul {
   margin: 0;
 }
 
-/* line 24, ../../A&M/Prodeconsa-SA/sass/style.scss */
 p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 1, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 header {
   display: flex;
   justify-content: center;
@@ -37,7 +32,6 @@ header {
   flex-direction: column;
 }
 
-/* line 8, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .header_contact {
   background-color: #FFFFFF;
   height: 7vh;
@@ -47,44 +41,37 @@ header {
   justify-content: space-between;
 }
 
-/* line 16, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .header_contact div ul {
   list-style: none;
   display: flex;
   gap: 1rem;
 }
 
-/* line 21, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .header_contact div ul li a {
   text-decoration: none;
 }
 
-/* line 28, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .header_list-contacto a,
 .header_list-contacto i {
   color: #969696;
 }
 
-/* line 34, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .list-contacto-item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 39, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .list-contacto-item a {
   margin-left: .7rem;
   font-size: 1.2rem;
 }
 
-/* line 45, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .header_list-redes li a i {
   color: #F78121;
 }
 
 /* /////////////// */
-/* line 50, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .header_principal {
   background-image: url(../assets/header/background.png);
   background-repeat: no-repeat;
@@ -94,7 +81,6 @@ header {
   width: 100%;
 }
 
-/* line 59, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .header_principal {
   display: flex;
   align-items: center;
@@ -102,7 +88,6 @@ header {
   flex-direction: column;
 }
 
-/* line 63, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .header_principal nav {
   width: 85%;
   height: 7rem;
@@ -111,7 +96,6 @@ header {
   justify-content: space-between;
 }
 
-/* line 72, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .navbar_logo,
 .navbar_pages {
   display: flex;
@@ -119,7 +103,6 @@ header {
   align-items: center;
 }
 
-/* line 80, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .navbar_logo h2 {
   color: #FFFFFF;
   margin-left: .7rem;
@@ -127,7 +110,6 @@ header {
   font-weight: 500;
 }
 
-/* line 89, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .navbar_pages ul {
   list-style: none;
   display: flex;
@@ -135,14 +117,12 @@ header {
   gap: 2rem;
 }
 
-/* line 94, ../../A&M/Prodeconsa-SA/sass/header/_header-contact.scss */
 .navbar_pages ul li a {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 1.6rem;
   font-weight: 400;
 }
-
 
 .navbar_pages-cotizar {
   padding: 1rem;
@@ -198,45 +178,83 @@ header {
 }
 
 /* Footer */
-/* line 3, ../../A&M/Prodeconsa-SA/sass/footer/_footer-contact.scss */
 .footer {
   background-color: #1B1B1B;
   padding: 10px;
-  right: 100px;
+  right: 10rem;
 }
 
-/* line 9, ../../A&M/Prodeconsa-SA/sass/footer/_footer-contact.scss */
 .footer_contenedor {
   position: relative;
   left: 4vw;
 }
 
-/* line 13, ../../A&M/Prodeconsa-SA/sass/footer/_footer-contact.scss */
 .footer_contenedor div div {
   margin-top: 6rem;
 }
 
-/* line 17, ../../A&M/Prodeconsa-SA/sass/footer/_footer-contact.scss */
 .footer_contenedor div ul li {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
   padding-bottom: 20px;
 }
 
-/* line 22, ../../A&M/Prodeconsa-SA/sass/footer/_footer-contact.scss */
 .footer_contenedor div ul li a {
   color: #FFFFFF;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
   padding: 0;
 }
 
-/* line 28, ../../A&M/Prodeconsa-SA/sass/footer/_footer-contact.scss */
 .fuente_color1 {
   color: #FFFFFF;
 }
 
-/* line 32, ../../A&M/Prodeconsa-SA/sass/footer/_footer-contact.scss */
 .fuente_color2 {
   color: #F78121;
 }
 
-/*# sourceMappingURL=style.css.map */
+.contactanos {
+  background-image: url(../assets/contactanos/sillones.png);
+  height: 35.5rem;
+  width: 100%;
+}
 
+.contactanos_card {
+  width: 35.7rem;
+  height: 30rem;
+  border-radius: 6px;
+}
+
+.contactanos_titulo {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  color: #F78121;
+}
+
+.contactanos_parrafo {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.9rem;
+  margin-top: 3.1rem;
+  color: #1B1B1B;
+}
+
+.contactanos_boton {
+  width: 16.4rem;
+  font-size: 2rem;
+  margin-top: 3.1rem;
+  margin-bottom: 2.5rem;
+  color: #FFFFFF;
+  background-color: #F78121;
+  outline: none;
+  border-radius: 6px;
+  padding: 10px 20.5px 10px 20.5px;
+}
