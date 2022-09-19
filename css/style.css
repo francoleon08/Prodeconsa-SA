@@ -96,18 +96,27 @@ header {
   justify-content: space-between;
 }
 
-.navbar_logo,
 .navbar_pages {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.navbar_logo h2 {
+.navbar_logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+}
+
+.navbar_logo a h2 {
+  margin-bottom: 0;
   color: #FFFFFF;
-  margin-left: .7rem;
-  font-size: 2rem;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
 }
 
 .navbar_pages ul {
@@ -147,22 +156,22 @@ header {
   text-align: center;
 }
 
-.header-titulo {
+.header-titulo h1 {
   font-size: 9rem;
   font-weight: 700;
-  font-style: normal;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-descripcion {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 2.7rem;
-  font-weight: 700;
-  font-style: normal;
+.header-descripcion p {
   width: 60rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #FAFAFA;
+  line-height: 160%;
   margin: 1.7rem 1.8rem;
   opacity: 0.8;
-  line-height: 160%;
 }
 
 .header-boton a {
@@ -177,92 +186,6 @@ header {
   font-size: 2rem;
 }
 
-<<<<<<< HEAD
-/* Footer */
-.footer {
-  background-color: #1B1B1B;
-  padding: 10px;
-  right: 10rem;
-}
-
-.footer_contenedor {
-  position: relative;
-  left: 4vw;
-}
-
-.footer_contenedor div div {
-  margin-top: 6rem;
-}
-
-.footer_contenedor div h5 {
-  color: #F78121;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.6rem;
-  line-height: 1.9rem;
-}
-
-.footer_contenedor div ul li {
-  padding-bottom: 20px;
-}
-
-.footer_contenedor div ul li a {
-  color: #FFFFFF;
-  font-size: 1.6rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.9rem;
-  padding: 0;
-}
-
-.fuente_color1 {
-  color: #FFFFFF;
-}
-
-.fuente_color2 {
-  color: #F78121;
-}
-
-.contactanos {
-  background-image: url(../assets/contactanos/sillones.png);
-  height: 35.5rem;
-  width: 100%;
-}
-
-.contactanos_card {
-  width: 35.7rem;
-  height: 30rem;
-  border-radius: 6px;
-}
-
-.contactanos_titulo {
-  font-size: 3.2rem;
-  font-style: normal;
-  font-weight: 600;
-  margin-top: 2.5rem;
-  color: #F78121;
-}
-
-.contactanos_parrafo {
-  font-size: 1.6rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.9rem;
-  margin-top: 3.1rem;
-  color: #1B1B1B;
-}
-
-.contactanos_boton {
-  width: 16.4rem;
-  font-size: 2rem;
-  margin-top: 3.1rem;
-  margin-bottom: 2.5rem;
-  color: #FFFFFF;
-  background-color: #F78121;
-  outline: none;
-  border-radius: 6px;
-  padding: 10px 20.5px 10px 20.5px;
-=======
 #quienes_somos {
   display: flex;
   justify-content: center;
@@ -451,5 +374,90 @@ header {
 .estadisticas-contain-card {
   margin: 4.7rem 0;
   text-align: center;
->>>>>>> lunes-19
+}
+
+.contactanos {
+  background-image: url(../assets/contactanos/sillones.png);
+  height: 35.5rem;
+  width: 100%;
+}
+
+.contactanos_card {
+  width: 35.7rem;
+  height: 30rem;
+  border-radius: 6px;
+}
+
+.contactanos_titulo {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  color: #F78121;
+}
+
+.contactanos_parrafo {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.9rem;
+  margin-top: 3.1rem;
+  color: #1B1B1B;
+}
+
+.contactanos_boton {
+  width: 16.4rem;
+  font-size: 2rem;
+  margin-top: 3.1rem;
+  margin-bottom: 2.5rem;
+  color: #FFFFFF;
+  background-color: #F78121;
+  outline: none;
+  border-radius: 6px;
+  padding: 10px 20.5px 10px 20.5px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1B1B1B;
+  padding: 10px;
+  right: 10rem;
+}
+
+.footer_contenedor {
+  position: relative;
+  left: 4vw;
+}
+
+.footer_contenedor div div {
+  margin-top: 6rem;
+}
+
+.footer_contenedor div h5 {
+  color: #F78121;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.footer_contenedor div ul li {
+  padding-bottom: 20px;
+}
+
+.footer_contenedor div ul li a {
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.9rem;
+  padding: 0;
+}
+
+.fuente_color1 {
+  color: #FFFFFF;
+}
+
+.fuente_color2 {
+  color: #F78121;
 }
