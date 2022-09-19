@@ -193,11 +193,15 @@ header {
   margin-top: 6rem;
 }
 
-.footer_contenedor div ul li {
-  font-size: 1.6rem;
+.footer_contenedor div h5 {
+  color: #F78121;
   font-style: normal;
   font-weight: 600;
-  line-height: 19px;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.footer_contenedor div ul li {
   padding-bottom: 20px;
 }
 
@@ -206,7 +210,7 @@ header {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 1.9rem;
   padding: 0;
 }
 
