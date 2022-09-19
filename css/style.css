@@ -177,6 +177,7 @@ header {
   font-size: 2rem;
 }
 
+<<<<<<< HEAD
 /* Footer */
 .footer {
   background-color: #1B1B1B;
@@ -261,4 +262,194 @@ header {
   outline: none;
   border-radius: 6px;
   padding: 10px 20.5px 10px 20.5px;
+=======
+#quienes_somos {
+  display: flex;
+  justify-content: center;
+}
+
+.quienes_somos-contain {
+  width: 85%;
+  margin: 4.6rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.quienes_somos-descripcion {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quienes_somos-descripcion h2 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: #F78121;
+}
+
+.quienes_somos-descripcion p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #1B1B1B;
+  width: 80%;
+}
+
+.quienes_somos-boton a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 1rem 4.3rem;
+  background: #F78121;
+  border-radius: .7rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+#nuestros_servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nuestros_servicios-contain {
+  width: 85%;
+  margin: 6.6rem 0;
+}
+
+.nuestros_servicios-titulo {
+  margin-bottom: 4.4rem;
+}
+
+.nuestros_servicios-titulo div h2 {
+  color: #F78121;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.nuestros_servicios-titulo div p {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #1B1B1B;
+  margin-top: .7rem;
+}
+
+.nuestros_servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.2rem;
+}
+
+.nuestros_servicios-card {
+  text-align: center;
+}
+
+.nuestros_servicios-card-descripcion {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+  justify-content: space-around;
+}
+
+.nuestros_servicios-card-descripcion div h3 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+
+.nuestros_servicios-card-descripcion div p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin: 0 1.2rem;
+}
+
+.card-descripcion-boton {
+  display: flex;
+  justify-content: center;
+}
+
+.card-descripcion-boton a {
+  text-decoration: none;
+  color: black;
+  padding: 1.2rem 1.6rem;
+  background: #FAF8F7;
+  border: 0.3rem solid #F78121;
+  border-radius: .4rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.card-descripcion-boton a {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: .8rem;
+}
+
+.nuestros_servicios-card-popular {
+  padding: .5rem 1.6rem;
+  background: #F78121;
+  border-radius: 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 1.8rem;
+  text-align: center;
+}
+
+.nuestros_servicios-card-popular {
+  position: relative;
+  bottom: 28rem;
+  right: 12rem;
+}
+
+#estadisticas {
+  background-image: url(../assets/estadisticas/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#estadisticas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.estadisticas-contain {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 23rem;
+  margin: 0 23rem;
+}
+
+.estadisticas-contain span {
+  font-weight: 600;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+  color: white;
+}
+
+.estadisticas-contain p {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: white;
+}
+
+.estadisticas-contain-card {
+  margin: 4.7rem 0;
+  text-align: center;
+>>>>>>> lunes-19
 }
