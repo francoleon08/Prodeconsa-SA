@@ -296,6 +296,7 @@ header {
   background: #FAF8F7;
   border: 0.3rem solid #F78121;
   border-radius: .4rem;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
   line-height: 1.8rem;
@@ -312,6 +313,7 @@ header {
   padding: .5rem 1.6rem;
   background: #F78121;
   border-radius: 1rem;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   color: #FFFFFF;
