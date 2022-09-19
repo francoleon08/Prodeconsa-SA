@@ -1,1 +1,4 @@
 revisar medidas de altura de header (contacto y imagen principal)
+
+Nuestros servicios: 
+    mucho margin top porque falta el carousel de piedras naturales

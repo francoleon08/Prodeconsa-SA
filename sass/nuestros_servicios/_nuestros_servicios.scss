@@ -1,0 +1,103 @@
+#nuestros_servicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuestros_servicios-contain {
+    width: 85%;
+    margin: 6.6rem 0;
+}
+
+.nuestros_servicios-titulo {
+    margin-bottom: 4.4rem;
+
+    div h2 {
+        color: $color-uno;
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 4rem;
+    }
+
+    div p {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        color: $color-dos;
+        margin-top: .7rem;
+    }
+}
+
+.nuestros_servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.2rem;
+}
+
+.nuestros_servicios-card {
+    text-align: center;
+}
+
+.nuestros_servicios-card-descripcion {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+    justify-content: space-around;
+
+    div {
+        h3 {
+            font-weight: 500;
+            font-size: 2.4rem;
+            line-height: 3rem;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.4rem;
+            margin: 0 1.2rem;
+        }
+    }
+}
+
+.card-descripcion-boton {
+    display: flex;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+        padding: 1.2rem 1.6rem;
+        background: #FAF8F7;
+        border: .3rem solid $color-uno;
+        border-radius: .4rem;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    a {
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        gap: .8rem;
+    }
+}
+
+.nuestros_servicios-card-popular {    
+    padding: .5rem 1.6rem;
+    background: $color-uno;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.nuestros_servicios-card-popular {
+    position: relative;
+    bottom: 28rem;
+    right: 12rem;
+}
