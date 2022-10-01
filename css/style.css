@@ -461,3 +461,72 @@ header {
 .fuente_color2 {
   color: #F78121;
 }
+
+/* Servicios */
+.header_principal_marmol {
+  background-image: url("../assets/Servicios -final/Marmol, Cuarzo y Granito/Hero Photo.webp");
+}
+
+.header_servicios_titulo {
+  position: absolute;
+  top: 22.2rem;
+  left: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.header_titulo_servicios {
+  width: 71rem;
+}
+
+.header_titulo_servicios h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9rem;
+  line-height: 9rem;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header_descripcion_servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  width: 64.3rem;
+  height: 17.3rem;
+  background: #F78121;
+}
+
+.header_descripcion_servicios h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 3.1rem;
+  opacity: 0.8;
+  color: #FFFFFF;
+}
+
+.servicios_galeria_titulo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  text-align: center;
+  color: #F78121;
+}
+
+.contactanos-marmol {
+  height: 35.5rem;
+  background-image: url("../assets/Servicios -final/Marmol, Cuarzo y Granito/CTA.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
