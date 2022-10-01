@@ -1,7 +1,9 @@
 .contactanos {
-    background-image: url(../assets/contactanos/sillones.png);
-    height: 35.5rem;
-    width: 100%;
+    background-image: url(../assets/contactanos/sillones.png);    
+    height: 35.5rem;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .contactanos_card {

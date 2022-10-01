@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* RESTETS */
 * {
   margin: 0;
@@ -379,7 +380,9 @@ header {
 .contactanos {
   background-image: url(../assets/contactanos/sillones.png);
   height: 35.5rem;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .contactanos_card {
@@ -521,12 +524,59 @@ header {
   line-height: 3.9rem;
   text-align: center;
   color: #F78121;
+  margin-top: 5rem;
 }
 
-.contactanos-marmol {
-  height: 35.5rem;
+/* Marmol */
+.header_principal_marmol {
+  background-image: url("../assets/Servicios -final/Marmol, Cuarzo y Granito/Hero Photo.webp");
+}
+
+.contactanos_marmol {
   background-image: url("../assets/Servicios -final/Marmol, Cuarzo y Granito/CTA.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+}
+
+/* Enchapes en piedra*/
+.header_principal_enchape {
+  background-image: url("../assets/Servicios -final/Enchapes de Piedras/Hero Photo.webp");
+}
+
+.contactanos_enchape {
+  background-image: url("../assets/Servicios -final/Enchapes de Piedras/CTA.webp");
+}
+
+/* Carpinteria */
+.header_principal_carpinteria {
+  background-image: url("../assets/Servicios -final/Carpintería/Hero Photo.webp");
+}
+
+.contactanos_carpinteria {
+  background-image: url("../assets/Servicios -final/Carpintería/CTA.webp");
+}
+
+/* Obras civiles */
+.header_principal_obras {
+  background-image: url("../assets/Servicios -final/Obras Civiles/Hero Photo.webp");
+}
+
+.contactanos_obras {
+  background-image: url("../assets/Servicios -final/Obras Civiles/CTA.webp");
+}
+
+/* Hornos y parrillas */
+.header_principal_hornos {
+  background-image: url("../assets/Servicios -final/Hornos y Parrillas/Hero Photo.webp");
+}
+
+.contactanos_hornos {
+  background-image: url("../assets/Servicios -final/Hornos y Parrillas/CTA.webp");
+}
+
+/* Mantenimiento de pisos */
+.header_principal_pisos {
+  background-image: url("../assets/Servicios -final/Pisos/Hero Photo.webp");
+}
+
+.contactanos_pisos {
+  background-image: url("../assets/Servicios -final/Pisos/CTA.webp");
 }
