@@ -26,6 +26,14 @@ p {
   margin-bottom: 0;
 }
 
+body {
+  background: #F9F9F9;
+}
+
+#header {
+  background-color: #FFFFFF;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -74,7 +82,7 @@ header {
 
 /* /////////////// */
 .header_principal {
-  background-image: url(../assets/header/background.png);
+  background-image: url("../assets/Home -final/Header.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -132,6 +140,11 @@ header {
   color: #FFFFFF;
   font-size: 1.6rem;
   font-weight: 400;
+  transition: .3s;
+}
+
+.navbar_pages ul li a:hover {
+  color: #F78121;
 }
 
 .navbar_pages-cotizar {
@@ -142,6 +155,7 @@ header {
   background: #F78121;
   border-radius: .5rem;
   text-align: center;
+  transition: .3s;
 }
 
 .navbar_pages-cotizar a {
@@ -150,9 +164,14 @@ header {
   line-height: 2rem;
 }
 
+.navbar_pages-cotizar:hover {
+  color: #FFFFFF;
+  background-color: #C25A05;
+}
+
 .header_principal-titulo {
-  position: absolute;
-  top: 22.2rem;
+  position: relative;
+  bottom: 22%;
   color: #FFFFFF;
   text-align: center;
 }
@@ -163,6 +182,12 @@ header {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.header-descripcion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .header-descripcion p {
   width: 60rem;
   font-family: 'IBM Plex Sans', sans-serif;
@@ -171,7 +196,7 @@ header {
   font-weight: 700;
   color: #FAFAFA;
   line-height: 160%;
-  margin: 1.7rem 1.8rem;
+  margin: 1.7rem 0;
   opacity: 0.8;
 }
 
@@ -185,6 +210,38 @@ header {
   height: 4.4rem;
   font-weight: 500;
   font-size: 2rem;
+  transition: .3s;
+}
+
+.header-boton a:hover {
+  background: #C25A05;
+}
+
+#empresas_trabajo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.empresas_trabajo-contenedor {
+  width: 85%;
+  text-align: center;
+}
+
+.empresa_trabajo-titulo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2remx;
+  line-height: 2.4rem;
+  color: #383838;
+  margin: 5rem 0 2rem 0;
+}
+
+.empresas_trabajo-img img {
+  width: 24.6rem;
+  height: 6.2rem;
 }
 
 #quienes_somos {
@@ -233,115 +290,84 @@ header {
   line-height: 2.4rem;
 }
 
-#nuestros_servicios {
+#elegirnos {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 6.6rem;
 }
 
-.nuestros_servicios-contain {
+.contenedor-elegirnos {
   width: 85%;
-  margin: 6.6rem 0;
-}
-
-.nuestros_servicios-titulo {
-  margin-bottom: 4.4rem;
-}
-
-.nuestros_servicios-titulo div h2 {
-  color: #F78121;
-  font-size: 3.2rem;
-  font-weight: 700;
-  line-height: 4rem;
-}
-
-.nuestros_servicios-titulo div p {
-  font-weight: 500;
-  font-size: 2rem;
-  line-height: 2.4rem;
-  color: #1B1B1B;
-  margin-top: .7rem;
-}
-
-.nuestros_servicios-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.2rem;
-}
-
-.nuestros_servicios-card {
   text-align: center;
 }
 
-.nuestros_servicios-card-descripcion {
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2.8rem;
+.elegirnos-titulo {
+  margin-bottom: 2rem;
+}
+
+.elegirnos-titulo h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  color: #F78121;
+}
+
+.elegirnos-cards {
+  gap: 2rem;
   justify-content: space-around;
 }
 
-.nuestros_servicios-card-descripcion div h3 {
-  font-weight: 500;
-  font-size: 2.4rem;
-  line-height: 3rem;
-}
-
-.nuestros_servicios-card-descripcion div p {
-  font-weight: 400;
-  font-size: 2rem;
-  line-height: 2.4rem;
-  margin: 0 1.2rem;
-}
-
-.card-descripcion-boton {
+.elegirnos-card {
   display: flex;
-  justify-content: center;
-}
-
-.card-descripcion-boton a {
-  text-decoration: none;
-  color: black;
-  padding: 1.2rem 1.6rem;
-  background: #FAF8F7;
-  border: 0.3rem solid #F78121;
-  border-radius: .4rem;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
-  font-size: 1.4rem;
-  line-height: 1.8rem;
-}
-
-.card-descripcion-boton a {
-  display: flex;
-  width: fit-content;
+  flex-direction: column;
   align-items: center;
-  gap: .8rem;
+  padding: 3rem 0 0;
+  gap: .5rem;
+  background-color: #FFFFFF;
+  width: 39.8rem;
+  height: 30.1rem;
 }
 
-.nuestros_servicios-card-popular {
-  padding: .5rem 1.6rem;
-  background: #F78121;
-  border-radius: 1rem;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #FFFFFF;
-  line-height: 1.8rem;
+.elegirnos-card div {
+  height: 28%;
+}
+
+.elegirnos-card div img {
+  /* margin-bottom: 3.5rem; */
+}
+
+.elegirnos-card div h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
   text-align: center;
+  color: #F78121;
+  /* margin-bottom: 3.5rem; */
 }
 
-.nuestros_servicios-card-popular {
-  position: relative;
-  bottom: 28rem;
-  right: 12rem;
+.elegirnos-card div p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: -2rem;
+  /* Black */
+  color: #1B1B1B;
 }
 
 #estadisticas {
-  background-image: url(../assets/estadisticas/background.png);
+  background-image: url("../assets/Home -final/Numeros.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center 65%;
 }
 
 #estadisticas {
@@ -377,12 +403,145 @@ header {
   text-align: center;
 }
 
+#nuestros_servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nuestros_servicios-contain {
+  width: 85%;
+  margin: 6.6rem 0;
+}
+
+.nuestros_servicios-titulo {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.nuestros_servicios-titulo div h2 {
+  color: #F78121;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.nuestros_servicios-titulo div p {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #1B1B1B;
+  margin-top: .7rem;
+}
+
+.nuestros_servicios-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.2rem;
+}
+
+.nuestros_servicios-card {
+  text-align: center;
+  width: 40rem;
+  height: 57.9rem;
+  background: #FFFFFF;
+}
+
+.nuestros_servicios-card:hover {
+  box-shadow: 0px 4px 50px rgba(30, 30, 30, 0.25);
+}
+
+.nuestros_servicios-img {
+  height: 301px;
+  width: 399px;
+}
+
+.nuestros_servicios-card-descripcion {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+  justify-content: space-around;
+}
+
+.nuestros_servicios-card-descripcion div h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.nuestros_servicios-card-descripcion div p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin: 0 1.2rem;
+}
+
+.card-descripcion-boton-flecha {
+  font-size: 2.5rem;
+  color: #F78121;
+}
+
+.card-descripcion-boton {
+  display: flex;
+  justify-content: center;
+}
+
+.card-descripcion-boton a {
+  text-decoration: none;
+  color: black;
+  padding: 1.2rem 1.6rem;
+  background: #FFFFFF;
+  border: 0.2rem solid #F78121;
+  border-radius: .4rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  transition: .2s;
+}
+
+.card-descripcion-boton a:hover {
+  color: #FFFFFF;
+  background-color: #F78121;
+}
+
+.card-descripcion-boton a:hover iconify-icon {
+  color: #FFFFFF;
+}
+
+.card-descripcion-boton a {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: .8rem;
+}
+
+.nuestros_servicios-card-popular {
+  padding: .5rem 1.6rem;
+  background: #F78121;
+  border-radius: 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 1.8rem;
+  text-align: center;
+}
+
+.nuestros_servicios-card-popular {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -378px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .contactanos {
-  background-image: url(../assets/contactanos/sillones.png);
+  background-image: url("../assets/Home -final/CTA.webp");
   height: 35.5rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center 65%;
 }
 
 .contactanos_card {
@@ -418,6 +577,12 @@ header {
   outline: none;
   border-radius: 6px;
   padding: 10px 20.5px 10px 20.5px;
+  transition: .3s;
+}
+
+.contactanos_boton:hover {
+  background: #C25A05;
+  color: #FFFFFF;
 }
 
 /* Footer */
@@ -462,6 +627,14 @@ header {
 }
 
 .fuente_color2 {
+  color: #F78121;
+}
+
+.nav-link {
+  transition: .3s;
+}
+
+.nav-link:hover {
   color: #F78121;
 }
 

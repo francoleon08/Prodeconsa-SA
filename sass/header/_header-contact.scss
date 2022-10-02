@@ -49,7 +49,7 @@ header {
 
 /* /////////////// */
 .header_principal {
-    background-image: url(../assets/header/background.png);
+    background-image: url("../assets/Home -final/Header.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -107,6 +107,11 @@ header {
             color: $color-cuatro;
             font-size: 1.6rem;
             font-weight: 400;
+            transition: .3s;
+
+            &:hover {
+                color: $color-uno;
+            }
         }
     }
 }
@@ -119,17 +124,23 @@ header {
     background: $color-uno;
     border-radius: .5rem;
     text-align: center;
+    transition: .3s; 
 
     a {
         font-weight: 600;
         font-size: 1.6rem;
-        line-height: 2rem;
+        line-height: 2rem;               
+    }
+
+    &:hover {
+        color: $color-cuatro;            
+        background-color: #C25A05;
     }
 }
 
 .header_principal-titulo {
-    position: absolute;
-    top: 22.2rem;
+    position: relative;
+    bottom: 22%;
     color: $color-cuatro;
     text-align: center;
 }
@@ -140,6 +151,12 @@ header {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.header-descripcion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .header-descripcion p {
     width: 60rem;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -148,7 +165,7 @@ header {
     font-weight: 700;
     color: #FAFAFA;
     line-height: 160%;
-    margin: 1.7rem 1.8rem;
+    margin: 1.7rem 0;
     opacity: 0.8;
 }
 
@@ -163,5 +180,10 @@ header {
         height: 4.4rem;
         font-weight: 500;
         font-size: 2rem;
+        transition: .3s;
+
+        &:hover {
+            background: #C25A05;
+        }
     }
 }

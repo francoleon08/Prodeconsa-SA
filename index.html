@@ -33,7 +33,7 @@
 
 <body>
     <!-- HEADER -->
-    <header>
+    <header id="header">
         <section class="header_contact">
             <div>
                 <ul class="header_list-contacto">
@@ -68,7 +68,7 @@
         <section class="header_principal">
             <nav class="navbar">
                 <div class="navbar_logo">
-                    <a href="">
+                    <a href="index.html">
                         <div>
                             <img src="assets/logo.png" alt="">
                         </div>
@@ -82,30 +82,48 @@
                         <li><a href="">Inicio</a></li>
                         <li><a href="">Servicios</a></li>
                         <li><a href="">Nosotros</a></li>
-                        <li><a href="">Contáctanos</a></li>
-                        <li class="navbar_pages-cotizar"><a href="">Cotiza ahora</a></li>
+                        <li class="navbar_pages-cotizar"><a href="">Contáctanos</a></li>
                     </ul>
                 </div>
             </nav>
             <div class="header_principal-titulo">
                 <div class="header-titulo">
-                    <h1>Lorem ipsum</h1>
-                    <h1>dolor sit amet.</h1>
+                    <h1>Lleva la elegancia a</h1>
+                    <h1>tu hogar o negocio</h1>
                 </div>
                 <div class="header-descripcion">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac pellentesque at nibh neque enim
-                        morbi.
+                        Nos encargamos de brindarte una atención 100% personalizada de inicio a fin.
                     </p>
                 </div>
                 <div class="header-boton">
-                    <a href="">Lorem ipsum</a>
+                    <a href="#nuestros_servicios">Ver más</a>
                 </div>
             </div>
         </section>
     </header>
 
     <main>
+        <!-- EMPRESAS CON LAS QUE TRABAJA -->
+        <section id="empresas_trabajo">
+            <div class="empresas_trabajo-contenedor">
+                <div class="empresa_trabajo-titulo">
+                    <h2>Nuestros clientes nos recomiendan</h2>
+                </div>
+                <div class="empresa_trabajo-marcas row">
+                    <div class="col empresas_trabajo-img">
+                        <img src="assets/Home -final/image.png" alt="Urbanika">
+                    </div>
+                    <div class="col empresas_trabajo-img">
+                        <img src="assets/Home -final/bluepools.png" alt="blupools">
+                    </div>
+                    <div class="col empresas_trabajo-img">
+                        <img src="assets/Home -final/lima golf club.png" alt="Lima golf club">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- QUIENES SOMOS  -->
         <section id="quienes_somos">
             <div class="quienes_somos-contain">
@@ -121,12 +139,92 @@
                             decoración con piedras naturales mármol, quarzo y granito.
                         </p>
                     </div>
-                    <div class="quienes_somos-boton">
-                        <a href="">Ver más</a>
+                    <div class="header-boton">
+                        <a href="#nuestros_servicios">Ver más</a>
                     </div>
                 </div>
                 <div class="quienes_somos-imagen">
                     <img src="assets/quienes somos/mesada.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- PORQUE ELEGIRNOS -->
+        <section id="elegirnos">
+            <div class="contenedor-elegirnos container">
+                <div class="elegirnos-titulo">
+                    <h2>¿Por qué elegirnos?</h2>
+                </div>
+                <div class="row row-cols-md-3 elegirnos-cards">
+                    <div class="col elegirnos-card">
+                        <div class="elegirnos-card-icon">
+                            <img src="assets/elegirnos -final/icon 1.png" alt="">
+                        </div>
+                        <div>
+                            <h3>Asesoramiento personalizado</h3>
+                        </div>
+                        <div>
+                            <p>
+                                Te acompañamos durante todo el proyecto, cumpliendo los plazos establecidos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col elegirnos-card">
+                        <div class="elegirnos-card-icon">
+                            <img src="assets/elegirnos -final/icon 2.png" alt="">
+                        </div>
+                        <div>
+                            <h3>Garantía asegurada</h3>
+                        </div>
+                        <div>
+                            <p>
+                                Verificamos que nuestros proyectos cumplan tus espectativas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col elegirnos-card">
+                        <div class="elegirnos-card-icon">
+                            <img src="assets/elegirnos -final/icon 3.png" alt="">
+                        </div>
+                        <div>
+                            <h3>Sómos transparentes</h3>
+                        </div>
+                        <div>
+                            <p>
+                                Trabajamos con transparencia, confianza y empatía.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ESTADISTICAS -->
+        <section id="estadisticas">
+            <div class="estadisticas-contain">
+                <div class="estadisticas-contain-card">
+                    <div>
+                        <span>+2000</span>
+                    </div>
+                    <div>
+                        <p>Clientes satisfechos</p>
+                    </div>
+                </div>
+                <div class="estadisticas-contain-card">
+                    <div>
+                        <span>+2000</span>
+                    </div>
+                    <div>
+                        <p>Proyectos terminados</p>
+                    </div>
+                </div>
+                <div class="estadisticas-contain-card">
+                    <div>
+                        <span>+15</span>
+                    </div>
+                    <div>
+                        <p>Años de experiencia</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -145,99 +243,146 @@
                 <div class="nuestros_servicios-grid">
                     <div class="nuestros_servicios-card">
                         <div>
-                            <img src="assets/nuestros servicios/quarzo.png" alt="">
+                            <img class="nuestros_servicios-img" src="assets/Home -final/CARD 1.webp" alt="">
                             <span class="nuestros_servicios-card-popular">Más popular</span>
                         </div>
                         <div class="nuestros_servicios-card-descripcion">
                             <div>
-                                <h3>Decoraciones con quarzo</h3>
+                                <h3>Decoraciones con Marmol, Quarzo y Granito</h3>
                             </div>
                             <div>
                                 <p>
-                                    Sem pellentesque amet, elementum neque
+                                    Suministro e instalación de piedras naturales en variedad para tu hogar o negocio.
                                 </p>
                             </div>
                             <div class="card-descripcion-boton">
-                                <a href="">
+                                <a href="pages/servicios/marmol.html">
                                     Ver más
-                                    <img src="assets/nuestros servicios/flecha.png" alt="">
+                                    <iconify-icon icon="akar-icons:arrow-right" class="card-descripcion-boton-flecha">
+                                    </iconify-icon>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="nuestros_servicios-card">
                         <div>
-                            <img src="assets/nuestros servicios/marmol.png" alt="">
-                            <span class="nuestros_servicios-card-popular">Más popular</span>
+                            <img class="nuestros_servicios-img" src="assets/Home -final/CARD 2.webp" alt="">
+                            <!-- Descomentar para añadir etiqueta de "mas popular" -->
+                            <!-- <span class="nuestros_servicios-card-popular">Más popular</span> -->
                         </div>
                         <div class="nuestros_servicios-card-descripcion">
                             <div>
-                                <h3>Decoraciones con marmol</h3>
+                                <h3>Decoraciones con piedras rústicas o enchapes de piedras</h3>
                             </div>
                             <div>
                                 <p>
-                                    Sem pellentesque amet, elementum neque
+                                    Decoración para interiores y exteriores con acabado natural, en diferentes formatos
+                                    de estilo.
                                 </p>
                             </div>
                             <div class="card-descripcion-boton">
-                                <a href="">
+                                <a href="pages/servicios/enchapes.html">
                                     Ver más
-                                    <img src="assets/nuestros servicios/flecha.png" alt="">
+                                    <iconify-icon icon="akar-icons:arrow-right" class="card-descripcion-boton-flecha">
+                                    </iconify-icon>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="nuestros_servicios-card">
                         <div>
-                            <img src="assets/nuestros servicios/granito.png" alt="">
-                            <span class="nuestros_servicios-card-popular">Más popular</span>
+                            <img class="nuestros_servicios-img" src="assets/Home -final/CARD 3.webp" alt="">
+                            <!-- Descomentar para añadir etiqueta de "mas popular" -->
+                            <!-- <span class="nuestros_servicios-card-popular">Más popular</span> -->
                         </div>
                         <div class="nuestros_servicios-card-descripcion">
                             <div>
-                                <h3>Decoraciones con granito</h3>
+                                <h3>Servicio de carpintería</h3>
                             </div>
                             <div>
                                 <p>
-                                    Sem pellentesque amet, elementum neque
+                                    Decoración para interiores y exteriores con acabado natural, en diferentes formatos
+                                    de estilo.
                                 </p>
                             </div>
                             <div class="card-descripcion-boton">
-                                <a href="">
+                                <a href="pages/servicios/carpinteria.html">
                                     Ver más
-                                    <img src="assets/nuestros servicios/flecha.png" alt="">
+                                    <iconify-icon icon="akar-icons:arrow-right" class="card-descripcion-boton-flecha">
+                                    </iconify-icon>
                                 </a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ESTADISTICAS -->
-        <section id="estadisticas">
-            <div class="estadisticas-contain">
-                <div class="estadisticas-contain-card">
-                    <div>
-                        <span>+500</span>
+                    <div class="nuestros_servicios-card">
+                        <div>
+                            <img class="nuestros_servicios-img" src="assets/Home -final/CARD 4.webp" alt="">
+                            <!-- Descomentar para añadir etiqueta de "mas popular" -->
+                            <!-- <span class="nuestros_servicios-card-popular">Más popular</span> -->
+                        </div>
+                        <div class="nuestros_servicios-card-descripcion">
+                            <div>
+                                <h3>Obrás civiles</h3>
+                            </div>
+                            <div>
+                                <p>Realizamos gran variedad de proyectos enfocados a construcción</p>
+                            </div>
+                            <div class="card-descripcion-boton">
+                                <a href="pages/servicios/obras.html">
+                                    Ver más
+                                    <iconify-icon icon="akar-icons:arrow-right" class="card-descripcion-boton-flecha">
+                                    </iconify-icon>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>Clientes satisfechos</p>
+                    <div class="nuestros_servicios-card">
+                        <div>
+                            <img class="nuestros_servicios-img" src="assets/Home -final/CARD 5.webp" alt="">
+                            <!-- Descomentar para añadir etiqueta de "mas popular" -->
+                            <!-- <span class="nuestros_servicios-card-popular">Más popular</span> -->
+                        </div>
+                        <div class="nuestros_servicios-card-descripcion">
+                            <div>
+                                <h3>Servicio de hornos y parrillas</h3>
+                            </div>
+                            <div>
+                                <p>
+                                    Realizamos servicio técnico y mantenimiento.
+                                </p>
+                            </div>
+                            <div class="card-descripcion-boton">
+                                <a href="pages/servicios/hornos_parrilas.html">
+                                    Ver más
+                                    <iconify-icon icon="akar-icons:arrow-right" class="card-descripcion-boton-flecha">
+                                    </iconify-icon>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="estadisticas-contain-card">
-                    <div>
-                        <span>+500</span>
-                    </div>
-                    <div>
-                        <p>Clientes satisfechos</p>
-                    </div>
-                </div>
-                <div class="estadisticas-contain-card">
-                    <div>
-                        <span>+500</span>
-                    </div>
-                    <div>
-                        <p>Clientes satisfechos</p>
+                    <div class="nuestros_servicios-card">
+                        <div>
+                            <img class="nuestros_servicios-img" src="assets/Home -final/CARD 6.webp" alt="">
+                            <!-- Descomentar para añadir etiqueta de "mas popular" -->
+                            <!-- <span class="nuestros_servicios-card-popular">Más popular</span> -->
+                        </div>
+                        <div class="nuestros_servicios-card-descripcion">
+                            <div>
+                                <h3>Mantenimiento de pisos</h3>
+                            </div>
+                            <div>
+                                <p>
+                                    Hacemos limpieza con implementos especiales, para brindarte la mejor calidad.
+                                </p>
+                            </div>
+                            <div class="card-descripcion-boton">
+                                <a href="pages/servicios/pisos.html">
+                                    Ver más
+                                    <iconify-icon icon="akar-icons:arrow-right" class="card-descripcion-boton-flecha">
+                                    </iconify-icon>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -262,7 +407,7 @@
     <footer class="footer">
         <div class="container row row-cols-5 py-5 my-5 footer_contenedor">
             <div class="col-4">
-                <a href="/" class="d-flex align-items-center mb-3 text-decoration-none">
+                <a href="index.html" class="d-flex align-items-center mb-3 text-decoration-none">
                     <img src="assets/logo.png" alt="Logo A&M Prodeconsa">
                     <p class="d-flex p-2 fs-2 fuente_color1">A&M Prodeconsa</p>
                 </a>
@@ -279,30 +424,34 @@
             <div class="col-2">
                 <h5>SERVICIOS</h5>
                 <ul class="nav flex-column mt-5">
-                    <li class="nav-item"><a href="#" class="nav-link">Servicio 1</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Servicio 2</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Servicio 3</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Servicio 4</a></li>
+                    <li class="nav-item"><a href="pages/servicios/marmol.html" class="nav-link">Marmol, Quarzo y Granito</a></li>
+                    <li class="nav-item"><a href="pages/servicios/enchapes.html" class="nav-link">Enchapes de piedras</a></li>
+                    <li class="nav-item"><a href="pages/servicios/carpinteria.html" class="nav-link">Carpintería</a></li>
+                    <li class="nav-item"><a href="pages/servicios/obras.html" class="nav-link">Obras Civiles</a></li>
+                    <li class="nav-item"><a href="pages/servicios/hornos_parrilas.html" class="nav-link">Hornos y parrillas</a></li>
+                    <li class="nav-item"><a href="pages/servicios/pisos.html" class="nav-link">Mantenimiento de pisos</a></li>
                 </ul>
             </div>
             <div class="col-2">
                 <h5>PÁGINAS</h5>
                 <ul class="nav flex-column mt-5">
-                    <li class="nav-item"><a href="#" class="nav-link">Página 1</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Página 2</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Página 3</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Nostros</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li> 
                 </ul>
             </div>
             <div class="col-3">
                 <h5>REDES</h5>
                 <ul class="nav flex-column mt-5">
-                    <li class="nav-item"><a href="#" class="nav-link">Facebook</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Instagram</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">LinkedIn</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" target="_blank">Facebook</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" target="_blank">Instagram</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" target="_blank">LinkedIn</a></li>
                 </ul>
             </div>
         </div>
     </footer>
+
+    <!-- ICONIFY -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
 
     <!-- BOXICONS -->
     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>

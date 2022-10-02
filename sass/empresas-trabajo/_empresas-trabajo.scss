@@ -1,0 +1,26 @@
+#empresas_trabajo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.empresas_trabajo-contenedor {
+    width: 85%;
+    text-align: center;
+}
+
+.empresa_trabajo-titulo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2remx;
+    line-height: 2.4rem;
+    color: #383838;
+    margin: 5rem 0 2rem 0;
+}
+
+.empresas_trabajo-img img {
+    width: 24.6rem;
+    height: 6.2rem;
+}

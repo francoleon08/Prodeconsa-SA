@@ -10,7 +10,8 @@
 }
 
 .nuestros_servicios-titulo {
-    margin-bottom: 4.4rem;
+    margin-bottom: 2rem;
+    text-align: center;
 
     div h2 {
         color: $color-uno;
@@ -36,6 +37,18 @@
 
 .nuestros_servicios-card {
     text-align: center;
+    width: 40rem;
+    height: 57.9rem;
+    background: #FFFFFF;
+
+    &:hover {
+        box-shadow: 0px 4px 50px rgba(30, 30, 30, 0.25);
+    }
+}
+
+.nuestros_servicios-img {
+    height: 301px;
+    width: 399px;
 }
 
 .nuestros_servicios-card-descripcion {
@@ -48,17 +61,22 @@
     div {
         h3 {
             font-weight: 500;
-            font-size: 2.4rem;
+            font-size: 2rem;
             line-height: 3rem;
         }
 
         p {
             font-weight: 400;
-            font-size: 2rem;
+            font-size: 1.8rem;
             line-height: 2.4rem;
             margin: 0 1.2rem;
         }
     }
+}
+
+.card-descripcion-boton-flecha {
+    font-size: 2.5rem;
+    color: $color-uno;
 }
 
 .card-descripcion-boton {
@@ -69,13 +87,23 @@
         text-decoration: none;
         color: black;
         padding: 1.2rem 1.6rem;
-        background: #FAF8F7;
-        border: .3rem solid $color-uno;
+        background: #FFFFFF;
+        border: .2rem solid $color-uno;
         border-radius: .4rem;
         font-family: 'DM Sans', sans-serif;
         font-weight: 700;
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         line-height: 1.8rem;
+        transition: .2s;        
+
+        &:hover {
+            color: #FFFFFF;
+            background-color: $color-uno;
+
+            iconify-icon {
+                color: #FFFFFF;
+            }
+        }
     }
 
     a {
@@ -86,7 +114,7 @@
     }
 }
 
-.nuestros_servicios-card-popular {    
+.nuestros_servicios-card-popular {
     padding: .5rem 1.6rem;
     background: $color-uno;
     border-radius: 1rem;
@@ -99,7 +127,8 @@
 }
 
 .nuestros_servicios-card-popular {
-    position: relative;
-    bottom: 28rem;
-    right: 12rem;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -378px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

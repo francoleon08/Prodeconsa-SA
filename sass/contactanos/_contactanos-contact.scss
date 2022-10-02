@@ -1,9 +1,9 @@
 .contactanos {
-    background-image: url(../assets/contactanos/sillones.png);    
+    background-image: url("../assets/Home -final/CTA.webp");    
     height: 35.5rem;    
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center 65%;
 }
 
 .contactanos_card {
@@ -39,4 +39,10 @@
     outline: none;
     border-radius: 6px;
     padding: 10px 20.5px 10px 20.5px;
+    transition: .3s;
+
+    &:hover {
+        background: #C25A05;
+        color: #FFFFFF;
+    }
 }

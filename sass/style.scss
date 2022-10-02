@@ -5,9 +5,8 @@
     box-sizing: border-box;
     /* 1 rem == 10 px */
     font-size: 62.5%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;    
 }
-
 
 /* Resets para Bootstrap y demas librerias */
 ol,
@@ -26,11 +25,21 @@ p {
     margin-bottom: 0;
 }
 
+body {
+    background: #F9F9F9;
+}
+
+#header {
+    background-color: #FFFFFF;
+}
+
 @import "colors";
 @import "header/header-contact";
+@import "empresas-trabajo/empresas-trabajo";
 @import "quienes_somos/quienes_somos";
-@import "nuestros_servicios/nuestros_servicios";
+@import "elegirnos/elegirnos";
 @import "estadisticas/estadisticas";
+@import "nuestros_servicios/nuestros_servicios";
 @import "contactanos/contactanos-contact.scss";
 @import "footer/footer-contact.scss";
 

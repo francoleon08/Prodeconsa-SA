@@ -43,3 +43,11 @@
 .fuente_color2 {
     color: $color-uno;
 }
+
+.nav-link {
+    transition: .3s;
+
+    &:hover {
+        color: $color-uno;
+    }
+}
