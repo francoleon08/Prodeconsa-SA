@@ -587,6 +587,8 @@ header {
 
 /* Footer */
 .footer {
+  width: 100%;
+  height: 39.8rem;
   background-color: #1B1B1B;
   padding: 10px;
   right: 10rem;
@@ -752,4 +754,235 @@ header {
 
 .contactanos_pisos {
   background-image: url("../assets/Servicios -final/Pisos/CTA.webp");
+}
+
+.contacto_bg {
+  background-image: url("/assets/Contacto -final/Hero Photo_ Contacto.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 167.52vh;
+  width: 100%;
+}
+
+.header_contacto-titulo {
+  position: absolute;
+  top: 22.2rem;
+  color: #FFFFFF;
+  text-align: left;
+  margin-left: 7.9rem;
+}
+
+.header-descripcion p {
+  width: 60rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 3.14rem;
+  margin: 1.7rem;
+  opacity: 0.8;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form {
+  background-color: #FFFFFF;
+  background-color: #F9F9F9;
+  margin-top: 7.4rem;
+}
+
+form .form_container {
+  width: 78.2rem;
+  height: 50.6rem;
+  font-size: 20px;
+}
+
+form .form_container div div input {
+  font-size: 1.4rem;
+  width: 33.5rem;
+  height: 4rem;
+  border: 1px solid #DCDCE4;
+  border-radius: 4px;
+}
+
+form .form_container div textarea {
+  width: 70.5rem;
+  height: 13.6rem;
+  font-size: 1.4rem;
+  border: 1px solid #DCDCE4;
+  border-radius: 4px;
+}
+
+form .form_container #enviar {
+  width: 16.4rem;
+  height: 4.4rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  border-radius: 7px;
+  color: #FFFFFF;
+  background-color: #1B1B1B;
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1B1B1B;
+  display: block;
+}
+
+.nombre_container {
+  margin: 5.7rem 3.1rem 0 6.4rem;
+  text-align: left;
+}
+
+.telefono_container {
+  margin-top: 5.7rem;
+  text-align: left;
+}
+
+.email_container {
+  margin: 2rem 3.1rem 0 6.4rem;
+  text-align: left;
+}
+
+.textarea_container {
+  margin-top: 2rem;
+  margin-left: 6.4rem;
+  text-align: left;
+}
+
+.enviar_container {
+  margin-top: 1.3rem;
+  margin-left: 6.4rem;
+  text-align: left;
+}
+
+/* Input Select */
+.interes_container {
+  position: absolute;
+  margin-left: 43.2rem;
+  margin-top: 2rem;
+  width: 33.5rem;
+  text-align: left;
+}
+
+.interes_container .select_btn {
+  height: 4rem;
+  font-size: 2.2rem;
+  display: flex;
+  padding: 0 20px;
+  background: #fff;
+  border: 1px solid #DCDCE4;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.interes_container .select_btn span {
+  color: #969696;
+  font-size: 1.4rem;
+}
+
+.interes_container .select_btn img {
+  transition: transform 0.3s linear;
+}
+
+.interes_container .select_contenido {
+  display: none;
+  background: #fff;
+  margin-top: 0.6rem;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 0.5px solid #EAEAEF;
+  box-shadow: 0px 1px 4px rgba(33, 33, 52, 0.1);
+}
+
+.interes_container .select_contenido .select_opciones {
+  margin-top: 1rem;
+}
+
+.interes_container .select_contenido .select_opciones li {
+  height: 3.6rem;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding: 0 13px;
+  color: black;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.interes_container .select_contenido .select_opciones li:hover {
+  background: #F78121;
+  color: #F9F9F9;
+}
+
+.interes_container.active .select_contenido {
+  display: block;
+}
+
+.interes_container.active .select_btn img {
+  transform: rotate(-180deg);
+}
+
+/* Informacion Contacto */
+.info_contacto {
+  width: 40.3rem;
+  height: 50.6rem;
+  margin-top: 7.4rem;
+  background-color: #F78121;
+}
+
+.info_contacto h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.64rem;
+  color: #F9F9F9;
+  margin: 144.42px 73px 0 76px;
+}
+
+.info_contacto div div {
+  margin-top: 30px;
+  margin-left: 76px;
+}
+
+.info_contacto img {
+  margin-right: 16.62px;
+  width: 15.38px;
+  height: 21.03px;
+}
+
+.info_contacto p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.11rem;
+  text-align: left;
+}
+
+.resultado_correcto {
+  text-align: left;
+  margin-top: 1.3rem;
+}
+
+.resultado_correcto p {
+  color: #169000;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.resultado_error {
+  margin-top: 1.3rem;
+}
+
+.resultado_error p {
+  color: #CC0000;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.esconder_input {
+  display: none;
 }
