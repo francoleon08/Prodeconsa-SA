@@ -147,7 +147,35 @@ header {
   color: #F78121;
 }
 
-.navbar_pages-cotizar {
+.navbar_pages-servicios {
+  position: relative;
+}
+
+.navbar_pages-servicios select {
+  width: 120px;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  padding: 1rem 3rem 1rem 1.2rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  appearance: none;
+}
+
+.navbar_pages-servicios option {
+  color: #1B1B1B;
+}
+
+.navbar_pages-servicios img {
+  position: absolute;
+  display: block;
+  left: 80%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.navbar_pages-contactanos {
   padding: 1rem;
   gap: 1rem;
   width: 12.6rem;
@@ -158,13 +186,13 @@ header {
   transition: .3s;
 }
 
-.navbar_pages-cotizar a {
+.navbar_pages-contactanos a {
   font-weight: 600;
   font-size: 1.6rem;
   line-height: 2rem;
 }
 
-.navbar_pages-cotizar:hover {
+.navbar_pages-contactanos:hover {
   color: #FFFFFF;
   background-color: #C25A05;
 }
@@ -756,6 +784,7 @@ header {
   background-image: url("../assets/Servicios -final/Pisos/CTA.webp");
 }
 
+/* Seccion Contactos */
 .contacto_bg {
   background-image: url("/assets/Contacto -final/Hero Photo_ Contacto.webp");
   background-repeat: no-repeat;
