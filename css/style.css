@@ -164,6 +164,14 @@ header {
 
 .navbar_pages-servicios option {
   color: #1B1B1B;
+  font-size: 1.5rem;
+  padding: 2rem;
+  outline: none;
+  border: none;
+}
+
+.navbar_pages-servicios option option:hover {
+  background: #C25A05;
 }
 
 .navbar_pages-servicios img {

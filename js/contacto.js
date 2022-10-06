@@ -85,7 +85,3 @@ async function controlarForm(e) {
 submit.addEventListener("click", controlarForm);
 
 
-
-
-
-
