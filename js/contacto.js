@@ -30,7 +30,7 @@ function selectServicio(li) {
 
 añadirServicios();
 
-//Enviar formulario
+//Validar formulario
 const nombre = document.getElementById("nombre");
 const telefono = document.getElementById("telefono");
 const email = document.getElementById("email");
@@ -38,23 +38,46 @@ const consulta = document.getElementById("consulta");
 const submit = document.getElementById("enviar");
 const resultado = document.querySelector(".resultado");
 const form = document.getElementById("form");
+const nombreError = document.getElementById("nombre_error");
+const telefonoError = document.getElementById("telefono_error");
+const emailError = document.getElementById("email_error");
+const selectError = document.getElementById("select_error");
+const textareaError = document.getElementById("textarea_error");
 
 function validarCampos() {
     let error;
     if (nombre.value === "") {
+        nombreError.innerHTML = `<p>No olvide llenar este campo.</p>`;
         return error = true;
+    } else {
+        nombreError.innerHTML = "";
     }
     if (telefono.value === "") {
+        telefonoError.innerHTML = `<p>No olvide llenar este campo.</p>`;
         return error = true;
+    } else {
+        telefonoError.innerHTML = "";
     }
-    if (email.value === "" || email.value.indexOf("@") === -1 || email.value.indexOf(".") === -1) {
+    if (email.value === "") {
+        emailError.innerHTML = `<p>No olvide llenar este campo.</p>`;
         return error = true;
+    } else if (email.value.indexOf("@") === -1 || email.value.indexOf(".") === -1) {
+        emailError.innerHTML = `<p>Complete correctamente este campo.</p>`;
+        return error = true;
+    } else {
+        emailError.innerHTML = "";
     }
     if (inputHidden.value === "") {
+        selectError.innerHTML = `<p>No olvide elegir una opción.</p>`;
         return error = true;
+    } else {
+        selectError.innerHTML = "";
     }
     if (consulta.value === "") {
+        textareaError.innerHTML = `<p>No olvide llenar este campo.</p>`;
         return error = true;
+    } else {
+        textareaError.innerHTML = "";
     }
     return false;
 }

@@ -15,12 +15,13 @@
     margin-left: 7.9rem;
 }
 
-.header-descripcion p {
+.header_contacto-descripcion p {
     width: 60rem;
     font-family: 'Inter';
     font-style: normal;
     font-size: 2.6rem;
     font-weight: 600;
+    text-align: left;
     color: #fff;
     line-height: 3.14rem;
     margin: 1.7rem;
@@ -173,8 +174,8 @@ label {
     margin-top: 1.3rem;
     p {
         color: $color-seis;
-    font-size: 1.5rem;
-    font-weight: 500;
+        font-size: 1.5rem;
+        font-weight: 500;
     }
 }
 
@@ -182,9 +183,25 @@ label {
     display: none;
 }
 
+.inputs_error  {
+    position: absolute;
+    margin-top: 0.3rem;
+    p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: $color-seis;
+    }
+} 
+
+#textarea_error p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: $color-seis;
+}
+
 /* Informacion Contacto */
 .info_contacto {
-    width: 42.3rem;
+    width: 44.3rem;
     height: 50.6rem;
     margin-top: 7.4rem;
     background-color: $color-uno;
