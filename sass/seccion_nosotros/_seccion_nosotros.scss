@@ -1,0 +1,97 @@
+/* Header Nosotros */
+.header_nosotros {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/Nosotros -final/Header.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 46.24vh;
+    width: 100%;
+}
+
+.header_nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    nav {
+        width: 85%;
+        height: 7rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Main Nosotros */
+.nosotros_main {
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.contenedor_parrafo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    width: 570.32px;
+    height: 217px; 
+    padding: 10px;
+    z-index: 999;
+    p {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 26.4px;
+        width: 494px;
+        padding: 20px;
+        margin-bottom: 30.5px 
+    }
+}
+
+.nosotros_bg {
+    z-index: 998;
+    position: relative;
+    margin-left: 400px;
+}
+
+.nosotros_section {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/Nosotros -final/CTA.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 65.76vh;
+    width: 100%;
+}
+
+.nosotros_card {
+    align-items: center;
+    width: 398px;
+    gap: 25px;
+    margin-top: 40px;
+    margin-left: 20px;
+    div {
+        height: 123px;
+        h5 {
+            font-size: 2rem;
+            font-weight: 600;
+            line-height: 24.2px;
+            text-align: center;
+            color: $color-uno;
+        }
+        p {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21.78px;
+            padding: 10px;
+        }
+    }
+}
+
+
+

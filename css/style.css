@@ -205,6 +205,75 @@ header {
   background-color: #C25A05;
 }
 
+.header_icono {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.tooltip-container {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.tooltip-container2 {
+  position: absolute;
+  bottom: 20%;
+  right: 25%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.tooltip-one {
+  padding: 18px 32px;
+  background: #1B1B1B;
+  position: absolute;
+  width: 220px;
+  border-radius: 5px;
+  text-align: center;
+  filter: drop-shadow(0 3px 5px #ccc);
+  display: none;
+  bottom: 40px;
+  right: 50%;
+  margin-right: -110px;
+}
+
+.tooltip-one span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.tooltip-one:after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  margin-left: -9px;
+  width: 18px;
+  height: 18px;
+  background: #1B1B1B;
+  transform: rotate(45deg);
+}
+
+.tooltip-trigger:hover + .tooltip-one {
+  display: block;
+}
+
+.header_icono2 {
+  position: absolute;
+  bottom: 15%;
+  right: 20%;
+  transform: translate(-50%, -50%);
+}
+
 .header_principal-titulo {
   position: relative;
   bottom: 22%;
@@ -792,7 +861,7 @@ header {
   background-image: url("../assets/Servicios -final/Pisos/CTA.webp");
 }
 
-/* Seccion Contactos */
+/* Seccion Contactos y Nosotros*/
 .contacto_bg {
   background-image: url("/assets/Contacto -final/Hero Photo_ Contacto.webp");
   background-repeat: no-repeat;
@@ -1022,4 +1091,103 @@ label {
 
 .esconder_input {
   display: none;
+}
+
+/* Header Nosotros */
+.header_nosotros {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/Nosotros -final/Header.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 46.24vh;
+  width: 100%;
+}
+
+.header_nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.header_nosotros nav {
+  width: 85%;
+  height: 7rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Main Nosotros */
+.nosotros_main {
+  display: flex;
+  align-items: center;
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+
+.contenedor_parrafo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+  width: 570.32px;
+  height: 217px;
+  padding: 10px;
+  z-index: 999;
+}
+
+.contenedor_parrafo p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 26.4px;
+  width: 494px;
+  padding: 20px;
+  margin-bottom: 30.5px;
+}
+
+.nosotros_bg {
+  z-index: 998;
+  position: relative;
+  margin-left: 400px;
+}
+
+.nosotros_section {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/Nosotros -final/CTA.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 65.76vh;
+  width: 100%;
+}
+
+.nosotros_card {
+  align-items: center;
+  width: 398px;
+  gap: 25px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.nosotros_card div {
+  height: 123px;
+}
+
+.nosotros_card div h5 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 24.2px;
+  text-align: center;
+  color: #F78121;
+}
+
+.nosotros_card div p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  padding: 10px;
 }

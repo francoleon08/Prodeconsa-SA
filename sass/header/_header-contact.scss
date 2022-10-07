@@ -170,6 +170,74 @@ header {
     }
 }
 
+.header_icono {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.tooltip-container {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.tooltip-container2 {
+    position: absolute;
+    bottom: 20%;
+    right: 25%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.tooltip-one {
+    padding: 18px 32px;
+    background: $color-dos;
+    position: absolute;
+    width: 220px;
+    border-radius: 5px;
+    text-align: center;
+    filter: drop-shadow(0 3px 5px #ccc);
+    display: none;
+    bottom: 40px;
+    right: 50%;
+    margin-right: -110px;
+    span {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+}
+
+.tooltip-one:after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    margin-left: -9px;
+    width: 18px;
+    height: 18px;
+    background: $color-dos;
+    transform: rotate(45deg);
+}
+
+.tooltip-trigger:hover + .tooltip-one {
+    display: block;
+}
+
+.header_icono2 {
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+}
+
 .header_principal-titulo {
     position: relative;
     bottom: 22%;
