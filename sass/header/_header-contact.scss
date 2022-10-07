@@ -53,7 +53,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 93vh;
+    height: 144vh;
     width: 100%;
 }
 
@@ -170,16 +170,16 @@ header {
     }
 }
 
-.header_icono {
+/* .header_icono {
     position: absolute;
     top: 40%;
     left: 10%;
     transform: translate(-50%, -50%);
-}
+} */
 
 .tooltip-container {
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 10%;
     transform: translate(-50%, -50%);
     cursor: pointer;
@@ -188,28 +188,28 @@ header {
 
 .tooltip-container2 {
     position: absolute;
-    bottom: 20%;
-    right: 25%;
+    bottom: -20%;
+    right: 10%;
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 2;
 }
 
 .tooltip-one {
-    padding: 18px 32px;
+    padding: 12px;
     background: $color-dos;
     position: absolute;
-    width: 220px;
-    border-radius: 5px;
+    width: 192px;
+    border-radius: 4px;
     text-align: center;
-    filter: drop-shadow(0 3px 5px #ccc);
     display: none;
-    bottom: 40px;
-    right: 50%;
-    margin-right: -110px;
+    bottom: 48px;
+    right: 20%;
+    margin-right: -153px;
     span {
         color: #fff;
         font-size: 14px;
+        font-family: 'Mulish', sans-serif;
         font-weight: 600;
         line-height: 20px;
     }
@@ -219,7 +219,7 @@ header {
     content: "";
     position: absolute;
     bottom: -9px;
-    left: 50%;
+    left: 15%;
     margin-left: -9px;
     width: 18px;
     height: 18px;

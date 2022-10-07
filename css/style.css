@@ -86,7 +86,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 93vh;
+  height: 144vh;
   width: 100%;
 }
 
@@ -205,16 +205,15 @@ header {
   background-color: #C25A05;
 }
 
-.header_icono {
-  position: absolute;
-  top: 40%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-}
-
+/* .header_icono {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+} */
 .tooltip-container {
   position: absolute;
-  top: 40%;
+  top: 60%;
   left: 10%;
   transform: translate(-50%, -50%);
   cursor: pointer;
@@ -223,30 +222,30 @@ header {
 
 .tooltip-container2 {
   position: absolute;
-  bottom: 20%;
-  right: 25%;
+  bottom: -20%;
+  right: 10%;
   transform: translate(-50%, -50%);
   cursor: pointer;
   z-index: 2;
 }
 
 .tooltip-one {
-  padding: 18px 32px;
+  padding: 12px;
   background: #1B1B1B;
   position: absolute;
-  width: 220px;
-  border-radius: 5px;
+  width: 192px;
+  border-radius: 4px;
   text-align: center;
-  filter: drop-shadow(0 3px 5px #ccc);
   display: none;
-  bottom: 40px;
-  right: 50%;
-  margin-right: -110px;
+  bottom: 48px;
+  right: 20%;
+  margin-right: -153px;
 }
 
 .tooltip-one span {
   color: #fff;
   font-size: 14px;
+  font-family: 'Mulish', sans-serif;
   font-weight: 600;
   line-height: 20px;
 }
@@ -255,7 +254,7 @@ header {
   content: "";
   position: absolute;
   bottom: -9px;
-  left: 50%;
+  left: 15%;
   margin-left: -9px;
   width: 18px;
   height: 18px;
@@ -1034,9 +1033,34 @@ label {
   transform: rotate(-180deg);
 }
 
+.resultado_correcto {
+  text-align: left;
+  margin-top: 1.3rem;
+}
+
+.resultado_correcto p {
+  color: #169000;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.resultado_error {
+  margin-top: 1.3rem;
+}
+
+.resultado_error p {
+  color: #CC0000;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.esconder_input {
+  display: none;
+}
+
 /* Informacion Contacto */
 .info_contacto {
-  width: 40.3rem;
+  width: 42.3rem;
   height: 50.6rem;
   margin-top: 7.4rem;
   background-color: #F78121;
@@ -1066,31 +1090,7 @@ label {
   font-weight: 400;
   line-height: 2.11rem;
   text-align: left;
-}
-
-.resultado_correcto {
-  text-align: left;
-  margin-top: 1.3rem;
-}
-
-.resultado_correcto p {
-  color: #169000;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.resultado_error {
-  margin-top: 1.3rem;
-}
-
-.resultado_error p {
-  color: #CC0000;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.esconder_input {
-  display: none;
+  width: 30rem;
 }
 
 /* Header Nosotros */
