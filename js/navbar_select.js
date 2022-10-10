@@ -19,13 +19,13 @@ let url = ["obras.html", "marmol.html", "pisos.html", "hornos_parrilas.html", "e
 function añadirServiciosNavbar() {
     for (let i = 0; i < serviciosNavbar.length; i++) {
         let link;
-        if (window.location.pathname == "/index.html") {
+        if (location.pathname.includes("/index.html")) {
             for (let j = 0; j < url.length; j++) {
                 link = `<a href="pages/servicios/${url[i]}" onclick="selectServicioNavbar(this)">${serviciosNavbar[i]}
                 </a>`;
             }
-        } else if (window.location.pathname == "/pages/contacto.html"
-        || window.location.pathname == "/pages/nosotros.html") {
+        } else if (location.pathname.includes("/pages/contacto.html") 
+        || location.pathname.includes("/pages/nosotros.html")) {
             for (let j = 0; j < url.length; j++) {
                 link = `<a href="./servicios/${url[i]}" onclick="selectServicioNavbar(this)">${serviciosNavbar[i]}
                         </a>`;
