@@ -79,17 +79,14 @@
                     <ul>
                         <li><a href="../index.html">Inicio</a></li>
                         <li>
-                            <div class="navbar_pages-servicios">
-                                <select name="servicios" id="select_servicios">
-                                    <option value="">Servicios</option>
-                                    <option value="./servicios/marmol.html">Mármol, Quarzo y Granito</option>
-                                    <option value="./servicios/enchapes.html">Enchapes de piedras</option>
-                                    <option value="./servicios/carpinteria.html">Carpintería</option>
-                                    <option value="./servicios/obras.html">Obras Civiles</option>
-                                    <option value="./servicios/hornos_parrilas.html">Hornos y Parrillas</option>
-                                    <option value="./servicios/pisos.html">Mantenimiento de pisos</option>
-                                </select>
-                                <img src="../assets/Home -final/flecha-select.png" alt="Flecha apuntando hacia abajo">
+                            <div class="navbar_select">
+                                <div class="navbar_select-btn">
+                                    <span class="navbar_select-span">Servicios</span>
+                                    <img src="../assets/Home -final/flecha-select.png" alt="Flecha apuntando hacia abajo">
+                                </div>
+                                <div class="navbar_select-contenido">
+                                    <ul class="navnar_select-opciones"></ul>
+                                </div>
                             </div>
                         </li>
                         <li><a href="./nosotros.html">Nosotros</a></li>
@@ -225,7 +222,7 @@
         </div>
     </footer>
     
-    <script src="../js/select_servicios.js"></script>
+    <script src="../js/navbar_select.js"></script>
     <script src="../js/contacto.js"></script>
 </body>
 </html>

@@ -147,40 +147,104 @@ header {
   color: #F78121;
 }
 
-.navbar_pages-servicios {
+/* .navbar_pages-servicios {
+    position: relative;
+    select {
+        width: 120px;
+        font-size: 1.5rem;
+        color: $color-cuatro;
+        padding: 1rem 3rem 1rem 1.2rem;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        appearance: none;
+    }
+    option {
+        color: $color-dos;
+        font-size: 1.5rem;
+        padding: 2rem;
+        outline: none;
+        border: none;
+        option:hover {
+            background: #C25A05;
+        }
+    }
+    img {
+        position: absolute;
+        display: block;
+        left: 80%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+    }
+} */
+.navbar_select {
   position: relative;
+  width: 8rem;
 }
 
-.navbar_pages-servicios select {
-  width: 120px;
-  font-size: 1.5rem;
+.navbar_select .navbar_select-btn {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.navbar_select .navbar_select-btn :hover {
+  color: #F78121;
+}
+
+.navbar_select .navbar_select-btn span {
   color: #FFFFFF;
-  padding: 1rem 3rem 1rem 1.2rem;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  appearance: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+  transition: .3s;
 }
 
-.navbar_pages-servicios option {
-  color: #1B1B1B;
-  font-size: 1.5rem;
-  padding: 2rem;
-  outline: none;
-  border: none;
+.navbar_select .navbar_select-btn img {
+  margin-left: 5px;
+  transition: transform 0.3s linear;
 }
 
-.navbar_pages-servicios option option:hover {
-  background: #C25A05;
-}
-
-.navbar_pages-servicios img {
+.navbar_select .navbar_select-contenido {
   position: absolute;
+  display: none;
+  width: 217px;
+  right: -0.4rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 4px;
+  border-radius: 4px;
+  border: 0.5px solid #EAEAEF;
+  box-shadow: 0px 1px 4px rgba(33, 33, 52, 0.1);
+  z-index: 996;
+}
+
+.navbar_select .navbar_select-contenido .navnar_select-opciones {
   display: block;
-  left: 80%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
+}
+
+.navbar_select .navbar_select-contenido .navnar_select-opciones a {
+  height: 3.6rem;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0 13px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_select .navbar_select-contenido .navnar_select-opciones a:hover {
+  background: #F78121;
+}
+
+.navbar_select.active .navbar_select-contenido {
+  display: block;
+}
+
+.navbar_select.active .navbar_select-btn img {
+  transform: rotate(-180deg);
 }
 
 .navbar_pages-contactanos {

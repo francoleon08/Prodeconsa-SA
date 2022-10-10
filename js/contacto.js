@@ -9,7 +9,7 @@ selectBtn.addEventListener("click",() => {
     select.classList.toggle("active");
 })
 
-let servicios = ["Obras civiles", "Mármol", "Quarzo y Granito", "Lavado de Pisos", 
+let servicios = ["Obras civiles", "Mármol, Quarzo y Granito", "Lavado de Pisos", 
 "Hornos y Parrillas", "Enchapes en Piedra", "Carpintería"];
 
 //Recorro el array de servicios para crear los "li" dinamicamente
