@@ -6,6 +6,4 @@ window.addEventListener("scroll", () => {
     if (window.scrollY == 0) {
         navbarScroll.classList.remove("navbar_on-scroll");
     }
-    
-    console.log(window.scrollY);
 })

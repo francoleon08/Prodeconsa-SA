@@ -53,3 +53,19 @@
         color: $color-uno;
     }
 }
+
+/* Media queries */
+
+@media (max-width: 992px) {
+    .footer_separacion {
+        display: none;
+    }
+
+    .footer {
+        height: fit-content;
+    }
+
+    .footer_margin {
+        margin-top: 5rem;
+    }
+}

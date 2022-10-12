@@ -794,6 +794,19 @@ header {
   color: #F78121;
 }
 
+/* Media queries */
+@media (max-width: 992px) {
+  .footer_separacion {
+    display: none;
+  }
+  .footer {
+    height: fit-content;
+  }
+  .footer_margin {
+    margin-top: 5rem;
+  }
+}
+
 /* Servicios */
 .header_principal_marmol {
   background-image: url("../assets/Servicios -final/Marmol, Cuarzo y Granito/Hero Photo.webp");
