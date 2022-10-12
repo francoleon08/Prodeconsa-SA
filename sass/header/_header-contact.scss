@@ -53,7 +53,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 144vh;
+    height: 130vh;
     width: 100%;
 }
 
@@ -64,11 +64,39 @@ header {
     flex-direction: column;
 
     nav {
-        width: 85%;
+        width: 100%;
         height: 7rem;
-        margin-top: 1rem;
         display: flex;
         justify-content: space-between;
+        background: radial-gradient(125% 125% at 50% -25%, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+        position: fixed;
+    }
+}
+
+.navbar_on-scroll {
+    top: 0;
+    background: #FFFFFF!important;
+    z-index: 999;
+    h2, 
+    a, 
+    span {
+        color: #1B1B1B!important;
+    }
+    .navbar_select-btn img {
+        filter: brightness(0) saturate(100%);
+    }
+    .navbar_select-contenido {
+        background: #FFFFFF!important;
+        box-shadow: 0px 0px 30px rgba(33, 33, 52, 0.1);
+        border: 0.5px solid #EAEAEF;
+        .navbar_select-opciones {
+            a {
+                color: black;
+            }
+            a:hover {
+                color: #F9F9F9!important;
+            }
+        }
     }
 }
 
@@ -147,10 +175,9 @@ header {
         background: rgba(0, 0, 0, 0.3);
         padding: 4px;
         border-radius: 4px;
-        border: 0.5px solid #EAEAEF;
         box-shadow: 0px 1px 4px rgba(33, 33, 52, 0.1);
         z-index: 996;
-        .navnar_select-opciones {
+        .navbar_select-opciones {
             display: block;
             a {
                 height: 3.6rem;
@@ -200,16 +227,9 @@ header {
     }
 }
 
-/* .header_icono {
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-} */
-
 .tooltip-container {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 10%;
     transform: translate(-50%, -50%);
     cursor: pointer;
@@ -261,16 +281,9 @@ header {
     display: block;
 }
 
-.header_icono2 {
-    position: absolute;
-    bottom: 15%;
-    right: 20%;
-    transform: translate(-50%, -50%);
-}
-
 .header_principal-titulo {
-    position: relative;
-    bottom: 22%;
+    position: absolute;
+    top: 50%;
     color: $color-cuatro;
     text-align: center;
 }

@@ -1,7 +1,7 @@
 //Select de navbar
 const navbarSelect = document.querySelector(".navbar_select");
 const navbarSelectBtn = navbarSelect.querySelector(".navbar_select-btn");
-const navbarOpciones = navbarSelect.querySelector(".navnar_select-opciones");
+const navbarOpciones = navbarSelect.querySelector(".navbar_select-opciones");
 const navbarSpan = navbarSelectBtn.querySelector(".navbar_select-span");
 const esconderSelect = navbarSelectBtn.querySelector(".navbar_esconder-input");
 

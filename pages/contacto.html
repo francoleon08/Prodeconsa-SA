@@ -64,34 +64,35 @@
             </div>
         </section>
         <section class="contacto_bg">
-            <nav class="navbar container">
-                <div class="navbar_logo">
-                    <a href="../index.html">
-                        <div>
-                            <img src="../assets/logo.png" alt="">
-                        </div>
-                        <div>
-                            <h2>A&M Prodeconsa</h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="navbar_pages">
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li>
-                            <div class="navbar_select">
-                                <div class="navbar_select-btn">
-                                    <span class="navbar_select-span">Servicios</span>
-                                    <img src="../assets/Home -final/flecha-select.png" alt="Flecha apuntando hacia abajo">
-                                </div>
-                                <div class="navbar_select-contenido">
-                                    <ul class="navnar_select-opciones"></ul>
-                                </div>
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar_logo">
+                        <a href="../index.html">
+                            <div>
+                                <img src="../assets/logo.png" alt="">
                             </div>
-                        </li>
-                        <li><a href="./nosotros.html">Nosotros</a></li>
-                        <li class="navbar_pages-contactanos"><a href="./contacto.html">Contáctanos</a></li>
-                    </ul>
+                            <div>
+                                <h2>A&M Prodeconsa</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="navbar_pages">
+                        <ul>
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li>
+                                <div class="navbar_select">
+                                    <div class="navbar_select-btn">
+                                        <span class="navbar_select-span">Servicios</span>
+                                        <img src="../assets/Home -final/flecha-select.png" alt="Flecha apuntando hacia abajo">
+                                    </div>
+                                    <div class="navbar_select-contenido">
+                                        <ul class="navbar_select-opciones"></ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="./nosotros.html">Nosotros</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <div class="header_contacto-titulo ">
@@ -144,7 +145,7 @@
                             <div class="textarea_container">
                                 <label for="consulta">Tu Consulta</label>
                                 <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
-                                <div id="textarea_error"></div>
+                                <div id="textarea_error" class="inputs_error"></div>
                             </div>
                             <div class="enviar_container">
                                 <input type="submit" id="enviar">.
@@ -222,6 +223,7 @@
         </div>
     </footer>
     
+    <script src="../js/navbar_scroll.js"></script>
     <script src="../js/navbar_select.js"></script>
     <script src="../js/contacto.js"></script>
 </body>
