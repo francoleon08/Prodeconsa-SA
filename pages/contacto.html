@@ -76,7 +76,11 @@
                             </div>
                         </a>
                     </div>
-                    <div class="navbar_pages">
+                    <div class="menu_responsive">
+                        <li class="navbar_pages-contactanos boton_responsive"><a href="./contacto.html">Contáctanos</a></li>
+                        <img src="../assets/Home -final/hamburguesa.png" id="menu_hamburguesa" alt="Menu hamburguesa">
+                    </div>
+                    <div class="navbar_pages" id="navbar_pages">
                         <ul>
                             <li><a href="../index.html">Inicio</a></li>
                             <li>
@@ -95,7 +99,7 @@
                     </div>
                 </div>
             </nav>
-            <div class="header_contacto-titulo ">
+            <div class="header_contacto-titulo">
                 <div class="header-titulo">
                     <h1>Conocé más</h1>
                 </div>
@@ -107,10 +111,11 @@
                     </p>
                 </div>
                 <!-- FORMULARIO -->
-                <section class="d-flex">
+                <section class="form_section">
+                    <h2 class="title_hidden">Formulario</h2>
                     <form action="https://formspree.io/f/xyyvjbbb" method="POST" id="form">
                         <div class="form_container">
-                            <div class="d-flex">
+                            <div class="input_flex">
                                 <div class="nombre_container">
                                     <label for="nombre" class="text-right">Nombre y Apellido</label>
                                     <input type="text" name="nombre" id="nombre">
@@ -122,7 +127,7 @@
                                     <div id="telefono_error" class="inputs_error"></div>
                                 </div>
                             </div>
-                            <div class="d-flex">
+                            <div class="input_flex">
                                 <div class="email_container">
                                     <label for="email">Correo Electrónico</label>
                                     <input type="email" name="email" id="email">
@@ -177,7 +182,7 @@
 
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer contacto_footer">
         <div class="container row row-cols-5 py-5 my-5 footer_contenedor">
             <div class="col-lg-4 col-sm-12 col-12">
                 <a href="/" class="d-flex align-items-center mb-3 text-decoration-none">
@@ -226,5 +231,6 @@
     <script src="../js/navbar_scroll.js"></script>
     <script src="../js/navbar_select.js"></script>
     <script src="../js/contacto.js"></script>
+    <script src="../js/menu_hamburguesa.js"></script>
 </body>
 </html>
