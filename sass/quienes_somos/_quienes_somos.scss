@@ -33,15 +33,30 @@
     }
 }
 
-.quienes_somos-boton {
-    a {
-        text-decoration: none;
-        color: $color-cuatro;
-        padding: 1rem 4.3rem;
-        background: $color-uno;
-        border-radius: .7rem;
-        font-weight: 500;
-        font-size: 2rem;
-        line-height: 2.4rem;
+@media (max-width: 1080px) {
+    .quienes_somos-contain {
+        flex-direction: column;
+    }
+
+    .quienes_somos-descripcion {
+        p {
+            text-align: justify;
+            width: auto;
+            margin: 1.3rem 0;
+        }
+    }
+
+    .quienes_somos-imagen {
+        margin-top: 2.1rem;
+    }
+
+    .quienes_somos-boton {
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width: 530px) {
+    .quienes_somos-imagen img {
+        width: 40rem;
     }
 }

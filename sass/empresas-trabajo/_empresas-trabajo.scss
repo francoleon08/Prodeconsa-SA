@@ -22,5 +22,10 @@
 
 .empresas_trabajo-img img {
     width: 24.6rem;
-    height: 6.2rem;
+}
+
+@media (max-width: 768px) {
+    .empresas_trabajo-img img {
+        margin: 1.25rem;
+    }
 }

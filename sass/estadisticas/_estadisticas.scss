@@ -15,8 +15,8 @@
     width: 85%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 23rem;
-    margin: 0 23rem;
+    /* gap: 23rem;
+    margin: 0 23rem; */
 
     span {
         font-weight: 600;
@@ -36,4 +36,10 @@
 .estadisticas-contain-card {
     margin: 4.7rem 0;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .estadisticas-contain {
+        grid-template-columns: 1fr;
+    }
 }
