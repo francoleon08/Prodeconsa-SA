@@ -18,15 +18,19 @@ let swiper1 = new Swiper('.swiper-container1', {
 			spaceBetween: 20,
 		},
 		680: {
-			slidesPerView: 2,
+			slidesPerView: 1,
 			spaceBetween: 40,
 		},
 		920: {
-			slidesPerView: 3,
+			slidesPerView: 1,
+			spaceBetween: 40,
+		},
+		1100: {
+			slidesPerView: 1,
 			spaceBetween: 40,
 		},
 		1240: {
-			slidesPerView: 3,
+			slidesPerView: 2,
 			spaceBetween: 20,
 		},
 	}
