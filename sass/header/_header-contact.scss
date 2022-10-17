@@ -70,6 +70,7 @@ header {
         justify-content: space-between;
         background: radial-gradient(125% 125% at 50% -25%, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
         position: fixed;
+        z-index: 999;
     }
 }
 
