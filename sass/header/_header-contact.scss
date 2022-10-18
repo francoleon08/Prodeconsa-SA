@@ -74,6 +74,13 @@ header {
     }
 }
 
+.navbar {
+    display: inline!important;
+    div {
+        padding: 3px;
+    }
+}
+
 .navbar_on-scroll {
     top: 0;
     background: #FFFFFF !important;

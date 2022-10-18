@@ -31,6 +31,7 @@
 
 .menu_responsive {
     display: flex;
+    align-items: center;
     gap: 2rem;
     li a {
         text-decoration: none;
@@ -38,6 +39,9 @@
         font-weight: 500;
         font-size: 1.4rem;
         line-height: 1.7rem;
+    }
+    img {
+        height: 2.8rem;
     }
 }
 

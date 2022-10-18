@@ -107,6 +107,14 @@ header {
   z-index: 999;
 }
 
+.navbar {
+  display: inline !important;
+}
+
+.navbar div {
+  padding: 3px;
+}
+
 .navbar_on-scroll {
   top: 0;
   background: #FFFFFF !important;
@@ -1708,6 +1716,7 @@ label {
 
 .menu_responsive {
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -1717,6 +1726,10 @@ label {
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.7rem;
+}
+
+.menu_responsive img {
+  height: 2.8rem;
 }
 
 .boton_responsive {
