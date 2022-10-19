@@ -884,6 +884,14 @@ header {
   color: #FFFFFF;
 }
 
+.input_contacto {
+  padding: 0 1rem;
+}
+
+.textarea_contacto {
+  padding: .5rem 1rem;
+}
+
 /* Footer */
 .footer {
   width: 100%;

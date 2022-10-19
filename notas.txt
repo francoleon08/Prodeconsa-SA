@@ -1,5 +1,0 @@
-NAVBAR:
-    menu desplegable por debajo del titulo
-
-SECCION CONTANCTO: 
-    margin-lefth a los input de texto
