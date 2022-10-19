@@ -19,21 +19,21 @@ let url = ["obras.html", "marmol.html", "pisos.html", "hornos_parrilas.html", "e
 function añadirServiciosNavbar() {
     for (let i = 0; i < serviciosNavbar.length; i++) {
         let link;
-        if (location.pathname.includes("/index.html")) {
+        if (location.pathname.includes("/pages/servicios")) {
             for (let j = 0; j < url.length; j++) {
-                link = `<a href="pages/servicios/${url[i]}" onclick="selectServicioNavbar(this)">${serviciosNavbar[i]}
-                </a>`;
+                link = `<a href="${url[i]}" onclick="selectServicioNavbar(this)">${serviciosNavbar[i]}
+                        </a>`;
             }
-        } else if (location.pathname.includes("/pages/contacto.html") 
-        || location.pathname.includes("/pages/nosotros.html")) {
+        } else if (location.pathname.includes("/pages/contacto") 
+        || location.pathname.includes("/pages/nosotros")) {
             for (let j = 0; j < url.length; j++) {
                 link = `<a href="./servicios/${url[i]}" onclick="selectServicioNavbar(this)">${serviciosNavbar[i]}
                         </a>`;
             }
         } else {
             for (let j = 0; j < url.length; j++) {
-                link = `<a href="${url[i]}" onclick="selectServicioNavbar(this)">${serviciosNavbar[i]}
-                        </a>`;
+                link = `<a href="pages/servicios/${url[i]}" onclick="selectServicioNavbar(this)">${serviciosNavbar[i]}
+                </a>`;
             }
         }
         navbarOpciones.insertAdjacentHTML("beforeend", link);

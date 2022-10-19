@@ -90,6 +90,7 @@ header {
     a,
     span {
         color: #1B1B1B !important;
+        font-weight: 500!important;
     }
 
     .navbar_select-btn img {
@@ -159,7 +160,6 @@ header {
 
 .navbar_select {
     position: relative;
-    width: 8rem;
 
     .navbar_select-btn {
         height: 4rem;

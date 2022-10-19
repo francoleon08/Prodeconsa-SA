@@ -125,6 +125,7 @@ header {
 .navbar_on-scroll a,
 .navbar_on-scroll span {
   color: #1B1B1B !important;
+  font-weight: 500 !important;
 }
 
 .navbar_on-scroll .navbar_select-btn img {
@@ -189,7 +190,6 @@ header {
 
 .navbar_select {
   position: relative;
-  width: 8rem;
 }
 
 .navbar_select .navbar_select-btn {
@@ -1597,6 +1597,9 @@ label {
   .contacto_bg {
     height: 135rem;
   }
+  .resultado_error {
+    margin-left: -4rem;
+  }
 }
 
 @media (max-width: 430px) {
@@ -1649,6 +1652,9 @@ label {
   .separador-top {
     margin-top: 16rem !important;
   }
+  .resultado_error {
+    margin-top: 0.2rem;
+  }
 }
 
 @media (max-width: 365px) {
@@ -1681,6 +1687,10 @@ label {
   }
   .info_contacto h1 {
     font-size: 1.4rem;
+  }
+  .resultado_error {
+    margin-top: 0;
+    margin-left: -6rem;
   }
 }
 
@@ -1863,7 +1873,6 @@ label {
     display: none;
     width: 100%;
     background-color: #000000BD;
-    margin-top: 1rem;
   }
   .navbar_pages span:hover {
     color: #fff;

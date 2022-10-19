@@ -435,6 +435,9 @@ label {
     .contacto_bg {
         height: 135rem;
     }
+    .resultado_error {
+        margin-left: -4rem;
+    }
 }
 
 @media (max-width: 430px) {
@@ -487,6 +490,9 @@ label {
     .separador-top {
         margin-top: 16rem!important;
     }
+    .resultado_error {
+        margin-top: 0.2rem;
+    }
 }
 
 @media (max-width: 365px) {
@@ -519,5 +525,9 @@ label {
     }
     .info_contacto h1 {
         font-size: 1.4rem;
+    }
+    .resultado_error {
+        margin-top: 0;
+        margin-left: -6rem;
     }
 }
