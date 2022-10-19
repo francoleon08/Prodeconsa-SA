@@ -1,0 +1,45 @@
+#estadisticas {
+    background-image: url("../assets/Home -final/Numeros.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 65%;
+}
+
+#estadisticas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estadisticas-contain {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 23rem;
+    margin: 0 23rem; */
+
+    span {
+        font-weight: 600;
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+        color: white;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        color: white;
+    }
+}
+
+.estadisticas-contain-card {
+    margin: 4.7rem 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .estadisticas-contain {
+        grid-template-columns: 1fr;
+    }
+}

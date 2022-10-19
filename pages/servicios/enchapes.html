@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="icon" href="../../assets/logo.png">
+
+    <!-- Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Font: DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- BOX ICONS -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+
+    <!--Icon-Font-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Galery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../../css/gallery-grid.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/carousel.css">
+    <title>Enchapes en Piedra</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <section class="header_contact">
+            <div>
+                <ul class="header_list-contacto">
+                    <li>
+                        <div class="list-contacto-item">
+                            <i class='bx bx-envelope bx-lg'></i>
+                            <a href="mailto:">serviskarn@hotmail.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-contacto-item">
+                            <i class='bx bx-mobile-alt bx-lg'></i>
+                            <a href="">+ (51) 999 621 152</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="header_list-redes">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100083696122055" target="_blank"><i class='bx bxl-facebook-square bx-lg'></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/a-m-prodeconsa-sac/" target="_blank"><i class='bx bxl-linkedin-square bx-lg'></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="header_principal header_principal_enchape">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar_logo">
+                        <a href="../../index.html">
+                            <div>
+                                <img src="../../assets/logo.png" alt="Logo Prodeconsa">
+                            </div>
+                            <div>
+                                <h2>A&M Prodeconsa</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="menu_responsive">
+                        <li class="navbar_pages-contactanos boton_responsive"><a href="../../pages/contacto.html">Contáctanos</a></li>
+                        <img src="../../assets/Home -final/hamburguesa.png" id="menu_hamburguesa" alt="Menu hamburguesa">
+                    </div>
+                    <div class="navbar_pages" id="navbar_pages">
+                        <ul>
+                            <li><a href="../../index.html">Inicio</a></li>
+                            <li>
+                                <div class="navbar_select">
+                                    <div class="navbar_select-btn">
+                                        <span class="navbar_select-span">Servicios</span>
+                                        <img src="../../assets/Home -final/flecha-select.png" alt="Flecha apuntando hacia abajo">
+                                    </div>
+                                    <div class="navbar_select-contenido">
+                                        <ul class="navbar_select-opciones"></ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="../../pages/nosotros.html">Nosotros</a></li>
+                            <li class="navbar_pages-contactanos"><a href="../../pages/contacto.html">Contáctanos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="header_servicios_titulo">
+                <div class="header_titulo_servicios">
+                    <h1>Enchapes en Piedra</h1>
+                </div>
+                <div class="header_descripcion_servicios">
+                    <h2>
+                        Decoración para interiores y exteriores con acabado natural, en diferentes formatos de estilo
+                        rústico: Piedra laja, Talamoye, Ayacuchana, etc.
+                    </h2>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- CAROUSEL -->
+    <section id="carousel_productos">
+        <div class="carousel_productos_contain">
+            <div class="carousel_productos_descripcion">
+                <div>
+                    <span>Te ofrecemos los mejores materiales</span>
+                </div>
+                <div>
+                    <p>Elige entre una variedad de colores y texturas para crear el mejor estilo.</p>
+                </div>
+                <div class="productos_descripcion-botones">
+                    <div class="swiper-button-prev">
+                        <img src="../../assets/carousel/left-arrow.png" alt="Flecha apuntando a la izquierda">
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="../../assets/carousel/right-arrow.png" alt="Flecha apuntando a la derecha">
+                    </div>
+                </div>
+            </div>
+            <div class="productos_carousel_container">
+                <div class="swiper-container swiper-container1 mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="../../assets/Servicios -final/Enchapes de Piedras/Piedra laja.webp" alt="Piedra laja">
+                            <div>
+                                <h3>Piedra Laja</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../../assets/Servicios -final/Enchapes de Piedras/Piedra Talamoye.webp" alt="Piedra Talamoye">
+                            <div>
+                                <h3>Talamoye</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../../assets/Servicios -final/Enchapes de Piedras/Piedra Ayacuchana.webp" alt="Piedra Ayacuchana">
+                            <div>
+                                <h3>Ayacuchana</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <div class="container gallery-container">
+        <h2 class="servicios_galeria_titulo">Algunos de nuestros proyectos</h2>
+        <div class="tz-gallery tz-gallery-general">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 text-center tz-gallery-contain">
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/1.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/1.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/2.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/2.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col-">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/3.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/3.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/4.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/4.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/5.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/5.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/6.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/6.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/7.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/7.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/8.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/8.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/9.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/9.webp" class="img-fluid" alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/10.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/10.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/11.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/11.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="lightbox" href="../../assets/Servicios -final/Enchapes de Piedras/12.webp">
+                        <img class="w-100 lightbox-tz-galery" src="../../assets/Servicios -final/Enchapes de Piedras/12.webp" class="img-fluid"
+                            alt="Enchapes en piedra">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CONTACTANOS -->
+    <section class="contactanos d-flex justify-content-center contactanos_enchape">
+        <div class="d-flex align-items-center">
+            <div class="card text-center contactanos_card ">
+                <div class="card-body">
+                    <h5 class="contactanos_titulo">Calidad a precios accesibles</h5>
+                    <p class="contactanos_parrafo">Recibe una cotización que se acomode a tus necesidades.</p>
+                    <a href="../../pages/contacto.html" class="btn contactanos_boton">Contáctanos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container row row-cols-5 py-5 my-5 footer_contenedor">
+            <div class="col-lg-4 col-sm-12 col-12">
+                <a href="../../index.html" class="d-flex align-items-center mb-3 text-decoration-none">
+                    <img src="../../assets/logo.png" alt="Logo A&M Prodeconsa">
+                    <p class="d-flex p-2 fs-2 fuente_color1">A&M Prodeconsa</p>
+                </a>
+                <p class="d-flex fs-4 fuente_color1">Somos una empresa con más de 15 años dedicados al rubro de los 
+                    servicios generales, construcción civil y decoración de interiores.</p>
+                <div class="d-flex">
+                    <p class="fs-5 fuente_color1 px-4">© 2022</p>
+                    <p class="fs-5 fuente_color2">A&M Prodeconsa S.A.C</p>
+                </div>
+            </div>
+            <div class="col-lg-1 footer_separacion">
+                <!-- Columna de separacion -->
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-7 col-7 footer_margin">
+                <h5>SERVICIOS</h5>
+                <ul class="nav flex-column mt-5">
+                    <li class="nav-item"><a href="marmol.html" class="nav-link">Marmol, Quarzo y Granito</a></li>
+                    <li class="nav-item"><a href="enchapes.html" class="nav-link">Enchapes de piedras</a></li>
+                    <li class="nav-item"><a href="carpinteria.html" class="nav-link">Carpintería</a></li>
+                    <li class="nav-item"><a href="obras.html" class="nav-link">Obras Civiles</a></li>
+                    <li class="nav-item"><a href="hornos_parrilas.html" class="nav-link">Hornos y parrillas</a></li>
+                    <li class="nav-item"><a href="pisos.html" class="nav-link">Mantenimiento de pisos</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-5 footer_margin">
+                <h5>PÁGINAS</h5>
+                <ul class="nav flex-column mt-5">
+                    <li class="nav-item"><a href="../../pages/nosotros.html" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="../../pages/contacto.html" class="nav-link">Contacto</a></li> 
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 col-12 footer_margin">
+                <h5>REDES</h5>
+                <ul class="nav flex-column mt-5">
+                    <li class="nav-item"><a href="https://www.facebook.com/profile.php?id=100083696122055" class="nav-link" target="_blank">Facebook</a></li>
+                    <li class="nav-item"><a href="https://www.linkedin.com/company/a-m-prodeconsa-sac/" class="nav-link" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div>
+        <a href="https://wa.link/fhkrqh" class="btn-wsp" target="_blank">
+            <i class="fa fa-whatsapp icono"></i>
+        </a>
+    </div>
+
+    <!-- SWIPER JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../../js/carousel.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+    <script src="../../js/navbar_scroll.js"></script> 
+    <script src="../../js/navbar_select.js"></script>
+    <script src="../../js/menu_hamburguesa.js"></script>
+</body>
+
+</html>

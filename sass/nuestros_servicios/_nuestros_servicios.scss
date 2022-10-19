@@ -1,0 +1,167 @@
+#nuestros_servicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuestros_servicios-contain {
+    width: 85%;
+    margin: 6.6rem 0;
+}
+
+.nuestros_servicios-titulo {
+    margin-bottom: 2rem;
+    text-align: center;
+
+    div h2 {
+        color: $color-uno;
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 4rem;
+    }
+
+    div p {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        color: $color-dos;
+        margin-top: .7rem;
+    }
+}
+
+.nuestros_servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.1rem;
+}
+
+.nuestros_servicios-card {
+    text-align: center;
+    width: 34.9rem;
+    height: 57.9rem;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+        box-shadow: 0px 4px 50px rgba(30, 30, 30, 0.25);
+    }
+}
+
+.nuestros_servicios-img {
+    height: 27.1rem;
+    width: 34.9rem;
+}
+
+.nuestros_servicios-card-descripcion {
+    width: 90%;
+    height: 100%;
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    div {
+        h3 {
+            font-weight: 500;
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.4rem;
+            margin: 0 1.2rem;
+        }
+    }
+}
+
+.card-descripcion-boton-flecha {
+    font-size: 2.5rem;
+    color: $color-uno;
+}
+
+.card-descripcion-boton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.6rem;
+
+    a {
+        text-decoration: none;
+        color: black;
+        padding: 1.2rem 1.6rem;
+        background: #FFFFFF;
+        border: .2rem solid $color-uno;
+        border-radius: .4rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        transition: .2s;        
+
+        &:hover {
+            color: #FFFFFF;
+            background-color: $color-uno;
+
+            iconify-icon {
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    a {
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        gap: .8rem;
+    }
+}
+
+.nuestros_servicios-card-popular {
+    padding: .5rem 1.6rem;
+    background: $color-uno;
+    border-radius: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.nuestros_servicios-card-popular {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -328px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1285px) {
+    .nuestros_servicios-grid {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 878px) {
+    .nuestros_servicios-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 415px) {
+    .nuestros_servicios-card {
+        width: 30rem;
+    }
+
+    .nuestros_servicios-img {
+        width: 30rem;
+        height: auto;
+    }
+
+    .nuestros_servicios-card-popular {
+        margin-left: -278px;
+    }
+}

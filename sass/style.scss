@@ -1,0 +1,52 @@
+/* RESTETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 1 rem == 10 px */
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;    
+}
+
+/* Resets para Bootstrap y demas librerias */
+ol,
+ul {
+    padding-left: 0;
+}
+
+dl,
+ol,
+ul {
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    background: #F9F9F9;
+}
+
+#header {
+    background-color: #FFFFFF;
+}
+
+@import "colors";
+@import "header/header-contact";
+@import "empresas-trabajo/empresas-trabajo";
+@import "quienes_somos/quienes_somos";
+@import "elegirnos/elegirnos";
+@import "estadisticas/estadisticas";
+@import "nuestros_servicios/nuestros_servicios";
+@import "contactanos/contactanos-contact.scss";
+@import "footer/footer-contact.scss";
+/* Servicios */
+@import "servicios/servicio-generico";
+@import "servicios/backgrounds";
+/* Seccion Contactos y Nosotros*/
+@import "seccion_contactos/seccion_contactos";
+@import "seccion_nosotros/seccion_nosotros";
+@import "boton_whatsapp/boton_whatsapp";
+

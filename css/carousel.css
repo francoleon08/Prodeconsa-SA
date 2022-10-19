@@ -1,0 +1,121 @@
+#carousel_productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+  
+.carousel_productos_contain {
+    width: 85%;
+    display: flex;
+    gap: 3.1rem;
+}
+
+
+.carousel_productos_descripcion {
+    z-index: 99;
+    margin: auto;
+}
+
+.carousel_productos_descripcion div span {
+    color: #F78121;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+    letter-spacing: 0.175em;
+}
+  
+.carousel_productos_descripcion div p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.7rem;
+    color: #1E1E1E;
+    opacity: 0.8;
+}
+  
+.productos_carousel_container {
+    overflow-x: hidden;
+}
+  
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide div {
+    position: absolute;
+    bottom: .1rem;
+    width: 100%;
+    background: linear-gradient(360deg, #1E1E1E 0%, rgba(30, 30, 30, 0.31) 53.65%, rgba(30, 30, 30, 0) 100%);
+    height: 9.9rem;
+}
+
+.swiper-slide div h3 { 
+    padding-left: 1.7rem;
+    margin-top: 3.3rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+    color: #FFFFFF;
+}
+  
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 47rem;
+}
+  
+.productos_descripcion-botones {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+}
+  
+.swiper-button-next,
+.swiper-button-prev {
+    position: relative !important;
+    top: 6rem;
+    color: #000000;
+    padding: 1rem;  
+}
+  
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: "";
+}
+  
+.swiper-pagination {
+    display: none;
+}
+
+@media (max-width: 578px) {
+    #carousel_productos {
+        margin-bottom: 11rem;
+    }
+    .carousel_productos_contain {
+        flex-direction: column;
+    }
+
+    .carousel_productos_descripcion {
+        text-align: center;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 57rem;
+        left: 40%;
+    }
+
+    .swiper-button-next img,
+    .swiper-button-prev img {
+        width: 5rem;
+        height: 5rem;
+    }
+}
