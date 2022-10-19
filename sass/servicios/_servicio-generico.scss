@@ -109,6 +109,24 @@
     }
 }
 
+@media (max-width: 896px) and (orientation: landscape) {
+    .header_servicios_titulo {
+        gap: 1rem;
+        top: 8.2rem;   
+    }
+    .header_titulo_servicios h1 {
+        font-size: 5.5rem;
+    }
+
+    .header_descripcion_servicios{
+        height: 13rem;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+    }
+}
+
 /* TZ GALERY */
 
 .col-galery {
