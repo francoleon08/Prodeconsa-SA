@@ -84,7 +84,7 @@
     position: relative !important;
     top: 6rem;
     color: #000000;
-    padding: 1rem;  
+    padding: 2.7rem;  
 }
   
 .swiper-button-next::after, .swiper-button-prev::after {
@@ -111,6 +111,7 @@
     .swiper-button-prev {
         top: 57rem;
         left: 40%;
+        padding: 0;
     }
 
     .swiper-button-next img,
