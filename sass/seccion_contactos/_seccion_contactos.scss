@@ -54,7 +54,7 @@ form {
     margin-top: 7.4rem;
     .form_container {
         width: 56.5vw;
-        height: 52.5rem;
+        height: 54rem;
         font-size: 20px;
         div div input {
             font-size: 1.4rem;
@@ -225,7 +225,7 @@ label {
 /* Informacion Contacto */
 .info_contacto {
     width: 31.57vw;
-    height: 52.5rem;
+    height: 54rem;
     margin-top: 7.4rem;
     background-color: $color-uno;
     h1 {
@@ -254,6 +254,16 @@ label {
 }
 
 /* Media Queries */
+@media (max-width: 1400px) {
+    .contacto_bg {
+        height: 115rem;
+    }
+    .info_contacto {
+        h1 {
+            font-size: 1.7rem;
+        }
+    }
+}
 
 @media (max-width: 1256px) {
     form .form_container {
@@ -296,7 +306,6 @@ label {
         width: 21rem;
     }
     .contacto_bg {
-        /* height: 180vh; */
         height: 112.5rem;
     }
 }
@@ -320,7 +329,6 @@ label {
         }
     }
     .contacto_bg {
-        /* height: 130vh; */
         height: 130rem;
     }
 }
@@ -331,7 +339,6 @@ label {
         font-weight: 600;
     }
     .contacto_bg {
-        /* height: 100vh; */
         height: 140rem;
     }
 }
@@ -341,14 +348,12 @@ label {
         width: 75.5vw;
     }
     .contacto_bg {
-        /* height: 140vh; */
         height: 150rem;
     }
 }
 
 @media (max-width: 780px) {
     .contacto_bg {
-        /* height: 160vh; */
         height: 160rem;
     }
 }
