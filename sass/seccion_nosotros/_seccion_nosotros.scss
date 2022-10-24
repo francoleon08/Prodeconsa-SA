@@ -75,7 +75,7 @@
     width: 570.32px;
     height: 235px; 
     padding: 10px;
-    z-index: 998;
+    z-index: 2;
     p {
         font-size: 2rem;
         font-weight: 400;
@@ -87,7 +87,7 @@
 }
 
 .nosotros_bg {
-    z-index: 997;
+    z-index: 1;
     position: relative;
     margin-left: 40rem;
     width: 100%;

@@ -15,7 +15,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     h2 {
         font-weight: 700;
@@ -31,6 +31,14 @@
         color: $color-dos;
         width: 80%;
     }
+}
+
+.quienes_somos-imagen img {
+    border-radius: .5rem;
+}
+
+.quienes_somos-boton {
+    padding-top: 1rem;
 }
 
 @media (max-width: 1080px) {
@@ -51,7 +59,7 @@
     }
 
     .quienes_somos-boton {
-        margin: 2rem 0;
+        margin: 5rem 0;
     }
 }
 

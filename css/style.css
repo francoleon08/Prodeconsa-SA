@@ -119,6 +119,7 @@ header {
   top: 0;
   background: #FFFFFF !important;
   z-index: 999;
+  box-shadow: 0px 4px 50px rgba(30, 30, 30, 0.25);
 }
 
 .navbar_on-scroll h2,
@@ -494,7 +495,7 @@ header {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .quienes_somos-descripcion h2 {
@@ -512,6 +513,14 @@ header {
   width: 80%;
 }
 
+.quienes_somos-imagen img {
+  border-radius: .5rem;
+}
+
+.quienes_somos-boton {
+  padding-top: 1rem;
+}
+
 @media (max-width: 1080px) {
   .quienes_somos-contain {
     flex-direction: column;
@@ -525,7 +534,7 @@ header {
     margin-top: 2.1rem;
   }
   .quienes_somos-boton {
-    margin: 2rem 0;
+    margin: 5rem 0;
   }
 }
 
@@ -710,6 +719,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.1rem;
+  padding-top: 2rem;
 }
 
 .nuestros_servicios-card {
@@ -720,6 +730,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: .5rem;
 }
 
 .nuestros_servicios-card:hover {
@@ -729,6 +740,8 @@ header {
 .nuestros_servicios-img {
   height: 27.1rem;
   width: 34.9rem;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 
 .nuestros_servicios-card-descripcion {
@@ -998,11 +1011,12 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 3rem;
   gap: 1rem;
   width: 64.3rem;
   height: 17.3rem;
   background: #F78121;
+  border-radius: .5rem;
 }
 
 .header_descripcion_servicios h2 {
@@ -1024,6 +1038,19 @@ header {
   text-align: center;
   color: #F78121;
   margin-top: 5rem;
+}
+
+.desliza-galeria-servicios {
+  margin: 1.8rem 0;
+  text-align: center;
+  display: none;
+}
+
+.desliza-galeria-servicios span {
+  color: #F78121;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 2.4rem;
 }
 
 @media (max-width: 992px) {
@@ -1054,6 +1081,12 @@ header {
   }
   .header_descripcion_servicios h2 {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .desliza-galeria-servicios {
+    display: block;
   }
 }
 
@@ -1804,7 +1837,7 @@ label {
   width: 570.32px;
   height: 235px;
   padding: 10px;
-  z-index: 998;
+  z-index: 2;
 }
 
 .contenedor_parrafo p {
@@ -1817,7 +1850,7 @@ label {
 }
 
 .nosotros_bg {
-  z-index: 997;
+  z-index: 1;
   position: relative;
   margin-left: 40rem;
   width: 100%;
@@ -2038,7 +2071,7 @@ label {
   text-align: center;
   font-size: 6rem;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 100;
+  z-index: 3;
   transition: all 300ms ease;
 }
 
